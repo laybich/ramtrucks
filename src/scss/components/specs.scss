@@ -1,0 +1,308 @@
+.specs {
+	&__title {
+		padding: 2.85714rem 0 0.62857rem;
+		text-align: center;
+		font-size: 2.85714rem;
+	}
+	&__subtitle {
+		text-align: center;
+		color: #636363;
+		margin-bottom: 1.92857rem;
+	}
+	&__model {
+		text-transform: uppercase;
+	}
+	&__info {
+		width: 80%;
+		padding: 3.57143rem 0 2.14286rem;
+		.feature-carousel__item {
+			min-height: auto;
+		}
+	}
+	&__complect {
+		font-size: 3rem;
+		padding: 0.71429rem 0 1.28571rem;
+	}
+	&__vehicle.lazyload {
+		transform: scale(0.3);
+	}
+	&__vehicle {
+	}
+	&__vehicle.loading {
+		opacity: 0.6;
+	}
+	&__checkbox {
+		position: absolute;
+		z-index: -1;
+		opacity: 0;
+		margin: 10px 0 0 20px;
+		& + label {
+			position: relative;
+			padding: 0 0 0 70px;
+			cursor: pointer;
+		}
+		& + label::before {
+			content: '';
+			position: absolute;
+			top: -0.07143rem;
+			left: 0;
+			width: 3.92857rem;
+			height: 2rem;
+			border-radius: 1.78571rem;
+			background-color: #880d00;
+			box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+			transition: 0.2s;
+		}
+		& + label::after {
+			content: '';
+			position: absolute;
+			top: 0.07143rem;
+			left: 0.16286rem;
+			width: 1.68571rem;
+			height: 1.68571rem;
+			border-radius: 50%;
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			transition: 0.2s;
+		}
+		&:checked + label::after {
+			left: 2rem;
+		}
+	}
+	&__label {
+		display: inline-block;
+		font-size: 0.85714rem;
+		color: #636363;
+		margin-right: 4px;
+		&.active {
+			color: #880d00;
+			font-weight: bold;
+		}
+	}
+	&__select {
+		display: block;
+		cursor: pointer;
+		margin: 3rem 0;
+		font-size: 1rem;
+		color: #444;
+		line-height: 1.42857;
+		min-height: 2.14286rem;
+		padding: 0 0.71429rem;
+		border-radius: 0.28571rem;
+		width: 15rem;
+		border: 0.07143rem solid #bfbfbf;
+		box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+	}
+	.select-fix {
+		position: relative;
+		width: 15rem;
+		&::after {
+			content: '\EAAE';
+			font-family: GCSS Icons;
+			position: absolute;
+			right: 0;
+			top: 0;
+			background-color: #880d00;
+			color: #fff;
+			border: #bfbfbf;
+			border-bottom-right-radius: 0.21429rem;
+			border-top-right-radius: 0.21429rem;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			min-height: 2.14286rem;
+			padding: 0 0.57143rem;
+			cursor: pointer;
+		}
+	}
+	.col-xs-6 {
+		margin-bottom: 3rem;
+	}
+	&__tabs {
+		display: flex;
+		padding: 0.71429rem 0 1.28571rem;
+	}
+	&__tabs-item {
+		text-transform: uppercase;
+		color: #636363;
+		font-weight: bold;
+		font-size: 1.21429rem;
+		border-radius: 2.85714rem;
+		padding: 0.71429rem 1.14286rem;
+		cursor: pointer;
+		&:hover {
+			background-color: #b50000;
+			color: #fff;
+		}
+		&.active {
+			background-color: #880d00;
+			color: #fff;
+		}
+	}
+	&__options {
+		border-top: 0.07143rem solid #bfbfbf;
+		margin-top: 1.07143rem;
+		& > * {
+			margin-top: 0.71429rem;
+		}
+	}
+	&__options-label {
+		text-transform: uppercase;
+		font-size: 1rem;
+		font-weight: 500;
+		line-height: 1.42857;
+		margin-bottom: 1rem;
+	}
+	.b-left {
+		border-left: 0.07143rem solid #bfbfbf;
+		padding: 0 0.78125%;
+	}
+	&.ram-chassis-cab {
+		.specs__tabs {
+			display: none;
+		}
+	}
+}
+
+.cars-carousel {
+	border-bottom: 0.07143rem solid #bfbfbf;
+	&__wrapper {
+		width: 83.33333333%;
+	}
+	&__item {
+		position: relative;
+		text-align: center;
+		cursor: pointer;
+		&.active {
+			border-bottom: 0.35714rem solid #880d00;
+			&::before {
+				content: '';
+				border-style: solid;
+				border-width: 0.35714rem;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				transform: translate(-50%);
+				border-color: transparent transparent #880d00;
+			}
+		}
+	}
+	&__img {
+		max-height: 10rem;
+		max-width: 12.14286rem;
+		margin: 1rem auto;
+	}
+	&__title {
+		font-family: $headerFont;
+		text-transform: uppercase;
+		height: 3.5rem;
+		padding-bottom: 0.71429rem;
+		color: #636363;
+		font-family: $fontFamily;
+		font-weight: 300;
+		font-size: 1.21429rem;
+	}
+	.owl-nav:not(.disabled) {
+		left: -5%;
+		right: -5%;
+	}
+	.owl-nav:not(.disabled) button.owl-next::after,
+	.owl-nav:not(.disabled) button.owl-prev::after {
+		opacity: 1;
+		background-color: transparent;
+	}
+	.owl-nav:not(.disabled) button.owl-next.disabled,
+	.owl-nav:not(.disabled) button.owl-prev.disabled {
+		color: #bfbfbf;
+	}
+}
+
+#interiordesign {
+	color: #fff;
+}
+
+.pnlm-container {
+	background: url('/wa-apps/blog/themes/ramtrucks/img/iris.jpg') center /
+		contain;
+}
+
+#highlights-slider {
+	.owl-stage-outer {
+		overflow: visible;
+	}
+	.highlights-slide__image {
+		object-fit: contain;
+		height: 400px;
+		border-radius: 0.71429rem;
+		display: block;
+		transform: scale(0.875) rotateY(0.01deg);
+		object-fit: cover;
+	}
+	.highlights-slide__title {
+		font-size: 1rem;
+		font-weight: 500;
+		padding-bottom: 1.07143rem;
+		text-align: center;
+		max-width: 585px;
+		margin: 2rem auto 0;
+	}
+	.highlights-slide__desc {
+		text-align: center;
+		max-width: 585px;
+		margin: 0 auto;
+		padding-bottom: 1.78rem * 2;
+		line-height: 1.42857;
+	}
+	.owl-nav {
+		color: #fff;
+	}
+	.highlights-list {
+		list-style: disc;
+		text-align: left;
+		margin-bottom: 40px;
+	}
+}
+
+.specs {
+	// ================================ >= 1400px ================================
+	@media (max-width: $xxl+px) {
+	}
+	// ================================ >= 1200px ================================
+	@media (max-width: $xl+px) {
+	}
+	// ================================ >= 992px ================================
+	@media (max-width: $lg+px) {
+		&__info {
+			width: 90%;
+			text-align: center;
+		}
+		.select-fix {
+			margin: auto;
+		}
+		.b-left {
+			border-left: 0;
+			padding: 0;
+		}
+		&__tabs {
+			justify-content: center;
+		}
+		&__complect {
+			font-size: 2.3rem;
+		}
+	}
+	// ================================ >= 768px ================================
+	@media (max-width: $md+px) {
+		&__tabs {
+			display: block;
+		}
+	}
+	// ================================ >= 576px ================================
+	@media (max-width: $sm+px) {
+		&__complect {
+			font-size: 1.8rem;
+		}
+	}
+}

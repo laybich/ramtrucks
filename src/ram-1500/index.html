@@ -1,0 +1,677 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!doctype html>
+<!-- Оболочка документа, указываем яык содержимого -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+@@include('../_header.html', {"title":"2021 Ram 1500 | Пикап"})
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка для демонстрации -->
+	<main class="main">
+
+		<!-- Контент -->
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Навигация по модели -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="secondary-navigation__modelname secondary-navigation__modelname_mobile">
+			<!-- мобильная надпись(скрыто на десктопах) -->
+			<h1 class="secondary-navigation__title">2021 RAM 1500</h1>
+		</div>
+		<div class="secondary-navigation" id="secondary-nav">
+			<div class="secondary-navigation__modelname">
+				<!-- надпись модели -->
+				<h1 class="secondary-navigation__title">2021 RAM 1500</h1>
+			</div>
+			<nav class="secondary-navigation__menu nav">
+				<ul class="nav__list">
+					<li class="nav__item nav__item_active">
+						<a class="nav__link" href="/ram-1500/">
+							Обзор
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/#trims">
+							Выбери свой RAM
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/gallery/">
+							Галерея
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/capability/">
+							Возможности
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/exterior/">
+							Экстерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/interior/">
+							Интерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/safety-security/">
+							Безопасность и защита
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/multifunction-tailgate/">
+							Многофункциональный задний борт
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/compare/">
+							Сравнить
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/specs/">
+							Спецификации
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/commercial/">
+							RAM для бизнеса
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Первый экран-слайдер -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="hero gcss-theme-dark">
+			<div class="owl-carousel">
+				<!-- Ram 1500 самый награжденный -->
+				<div class="owl-carousel__item">
+					<!-- фоновая картинка -->
+					<picture class="hero__bg">
+						<source srcset="<%=path%>img/DT21-VLP-hero-desktop-01.jpg" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/DT21-VLP-hero-mobile-01.jpg" media="(min-width: 576px)">
+						<img src="<%=path%>img/DT21-VLP-hero-desktop-01.jpg" srcset="<%=path%>img/DT21-VLP-hero-mobile-01.jpg" alt="A three-quarter side view of a white 2021 Ram 1500 Tradesman HFE EcoDiesel parked in the front of a set of row houses.">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="hero__content right top thirty tablet-width-60 scale-down text-left static-sm w100-sm">
+						<p class="hero__text hero__text_strong">
+							RAM 1500 2021
+						</p>
+						<h2 class="hero__title m0">
+							Самый титулованный среднетоннажный пикап в америке
+						</h2>
+					</div>
+				</div>
+				<!-- Процесс покупки -->
+				<div class="owl-carousel__item">
+					<!-- фоновая картинка -->
+					<picture class="hero__bg">
+						<source srcset="<%=path%>img/VLP-1500-DT-Bighorn-Desktop.jpg" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/VLP-1500-DT-Bighorn-Mobile.jpg" media="(min-width: 576px)">
+						<img src="<%=path%>img/VLP-1500-DT-Bighorn-Desktop.jpg" srcset="<%=path%>img/VLP-1500-DT-Bighorn-Mobile.jpg" alt="A red 2021 Ram 1500 Big Horn parked on a brick courtyard near a large fountain with skyscrapers in the background.">
+					</picture>
+				</div>
+				<!-- топливная экономичность -->
+				<div class="owl-carousel__item">
+					<!-- фоновая картинка -->
+					<picture class="hero__bg">
+						<source srcset="<%=path%>img/MY21-HFE-Tradesman-VLP-Desktop.jpg" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/MY21-HFE-Tradesman-VLP-Mobile.jpg" media="(min-width: 576px)">
+						<img src="<%=path%>img/MY21-HFE-Tradesman-VLP-Desktop.jpg" srcset="<%=path%>img/MY21-HFE-Tradesman-VLP-Mobile.jpg" alt="A three-quarter side view of a white 2021 Ram 1500 Tradesman HFE EcoDiesel parked in the front of a set of row houses.">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="hero__content right top thirty tablet-width-40 bg-black scale-down static-sm w100-sm">
+						<h3 class="hero__text_strong">
+							НЕПРЕВЗОЙДЕННАЯ ТОПЛИВНАЯ ЭКОНОМИЧНОСТЬ
+						</h3>
+						<p class="hero__text hero__text_last">
+							Перевозите грузы с непревзойденным в своем классе расходом 7.1л на 100км пути на RAM 1500 Tradesman<sup>®</sup> HFE EcoDiesel 2021 года с двигателем 3,0л EcoDiesel V6
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- кнопка остановки слайдера -->
+			<button class="owl-pause _icon-pause" data-play="play"></button>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Найди свой RAM 1500 -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="copy-box gcss-theme-light">
+			<!-- заголовок секции -->
+			<h2 class="copy-box__title" style="margin:1rem 0 2.8rem">
+				Найди свой Ram 1500
+			</h2>
+			<!-- ссылка-заглушка -->
+			<a class="copy-box__link btn gcss-button" href="#trims">
+				Изучите комплектации
+			</a>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Слайдер с моделями RAM 1500 -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="find-your-ram gcss-theme-dark">
+			<div class="owl-carousel">
+				<!-- картинка 1 -->
+				<picture>
+					<source srcset="<%=path%>img/DT21-VLP-trim-selector-desktop-01.jpg" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/DT21-VLP-trim-selector-mobile-01.jpg" media="(min-width: 576px)">
+					<img src="<%=path%>img/DT21-VLP-trim-selector-desktop-01.jpg" srcset="<%=path%>img/DT21-VLP-trim-selector-mobile-01.jpg" alt="A slider showing three of the 2021 Ram 1500 trim levels: Limited, Limited Longhorn Edition, and Rebel.">
+				</picture>
+				<!-- картинка 2 -->
+				<picture>
+					<source srcset="<%=path%>img/DT21-VLP-trim-selector-desktop-02.jpg" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/DT21-VLP-trim-selector-mobile-02.jpg" media="(min-width: 576px)">
+					<img src="<%=path%>img/DT21-VLP-trim-selector-desktop-02.jpg" srcset="<%=path%>img/DT21-VLP-trim-selector-mobile-02.jpg" alt="A slider showing three of the 2021 Ram 1500 trim levels: Laramie, Big Horn and Tradesman.">
+				</picture>
+				<!-- здесь может быть ваша картинка :) -->
+			</div>
+			<!-- кнопка-пауза -->
+			<button class="owl-pause _icon-pause" data-play="play"></button>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Переход на TRX -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="hero gcss-theme-dark">
+			<!-- фоновая картинка -->
+			<picture>
+				<source srcset="<%=path%>img/DT21-VLP-TRX-Desktop.jpg" media="(min-width: 769px)">
+				<source srcset="<%=path%>img/DT21-VLP-TRX-Mobile.jpg" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-VLP-TRX-Desktop.jpg" data-srcset="<%=path%>img/DT21-VLP-TRX-Mobile.jpg" draggable="false" alt="">
+			</picture>
+			<!-- текстовый контент -->
+			<div class="hero__content center-center static-sm">
+				<img class="hero__logo lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/logo.svg" alt="TRX logo">
+				<h2 class="hero__title">Управляемая мощь</h2>
+				<!-- ссылка на Ram TRX -->
+				<a class="hero__button btn btn-secondary m-sm-0" href="/trx/">Изучите Ram TRX</a>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Возможности -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="img-desc">
+			<!-- заголовок секции -->
+			<h2 class="img-desc__title">
+				Возможности
+			</h2>
+			<div class="img-desc__grid">
+				<!-- картинка к описанию -->
+				<picture class="img-desc__image">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Capability-Desktop.jpg.image.1000.jpg, <%=path%>img/MY21-RAM-1500-VLP-Capability-Desktop.jpg.image.2000.jpg 2x" media="(min-width: 992px)">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Capability-Mobile.jpg.image.1000.jpg, <%=path%>img/MY21-RAM-1500-VLP-Capability-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Capability-Mobile.jpg.image.700.jpg, <%=path%>img/MY21-RAM-1500-VLP-Capability-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+					<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/MY21-RAM-1500-VLP-Capability-Desktop.jpg.image.1000.jpg" data-srcset="<%=path%>img/MY21-RAM-1500-VLP-Capability-Mobile.jpg.image.500.jpg, <%=path%>img/MY21-RAM-1500-VLP-Capability-Mobile.jpg.image.1000.jpg 2x" alt="The 2021 Ram 1500 towing a flatbed loaded with construction materials.">
+				</picture>
+				<!-- текстовый контент -->
+				<div class="img-desc__content">
+					<h2 class="img-desc__content-title">
+						Создан для тяжёлых нагрзок
+					</h2>
+					<p class="img-desc__text">
+						RAM 1500 2021 года предлагает широкую линейку двигателей, от стандартного 3,6л. бензинового двигателя Pentastar<sup>®</sup> V6 с гибридным приводом eTorque класса Exclusive, до двигателей HEMI<sup>®</sup> 5,7л. V8 и экономичного дизеля 3,0л. EcoDiesel V6. Комбинируйте эту мощь с такими универсальными функциями, как многофункциональный задний борт с раздельными половинками 60/40, и узнайте, как RAM 1500 2021 года упрощает работу с вашими потребностями в буксировке и перевозке грузов.
+					</p>
+					<a class="img-desc__link btn gcss-button" href="/ram-1500/capability/">
+						Изучите возможности
+					</a>
+				</div>
+			</div>
+		</section>
+
+		
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Галерея Ram 1500 -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="alfagallery">
+			<!-- Заголовок секции -->
+			<h2 class="alfagallery__title">
+				Галерея
+			</h2>
+			<div class="alfagallery__grid">
+				<!-- колонка 1 -->
+				<div class="alfagallery__column alfagallery__column_first">
+					<a class="alfagallery__item" data-fancybox="alfagallery" href="<%=path%>img/DT21-VLP-gallery-Expanded-01.jpg.image.1440.jpg">
+						<picture class="alfagallery__img">
+							<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-01.jpg.image.700.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-01.jpg.image.1400.jpg 2x" media="(min-width: 992px)">
+							<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-01.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-01.jpg.image.600.jpg 2x" media="(min-width: 576px)">
+							<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-VLP-gallery-Thumb-01.jpg.image.700.jpg" data-srcset="<%=path%>img/DT21-VLP-gallery-Thumb-01.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-01.jpg.image.600.jpg 2x" alt="A close-up of the steering wheel and 12-inch touchscreen in the 2021 Ram 1500.">
+						</picture>
+					</a>
+					<div class="alfagallery__column-mini">
+						<a class="alfagallery__item" data-fancybox="alfagallery" href="<%=path%>img/DT21-VLP-gallery-Expanded-2.jpg">
+							<picture class="alfagallery__img">
+								<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-2.jpg" media="(min-width: 576px)">
+								<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-VLP-gallery-Thumb-2.jpg" data-srcset="<%=path%>img/DT21-VLP-gallery-Thumb-2.jpg" alt="A close-up of the hood and headlamps on the 2021 Ram 1500.">
+							</picture>
+						</a>
+						<a class="alfagallery__item alfagallery__item_third" data-fancybox="alfagallery" href="<%=path%>img/DT21-VLP-gallery-Expanded-03.jpg.image.1440.jpg">
+							<picture class="alfagallery__img">
+								<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-03.jpg.image.700.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-03.jpg.image.1400.jpg 2x" media="(min-width: 992px)">
+								<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-03.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-03.jpg.image.600.jpg 2x" media="(min-width: 576px)">
+								<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-VLP-gallery-Thumb-03.jpg.image.700.jpg" data-srcset="<%=path%>img/DT21-VLP-gallery-Thumb-03.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-03.jpg.image.600.jpg 2x" alt="The Longhorn sill badging on the floor of the the 2021 Ram 1500 Limited Longhorn.">
+							</picture>
+						</a>
+					</div>
+				</div>
+				<!-- колонка 2 -->
+				<div class="alfagallery__column alfagallery__column_second">
+					<a class="alfagallery__item" data-fancybox="alfagallery" href="<%=path%>img/DT21-VLP-gallery-Expanded-04.jpg.image.1440.jpg">
+						<picture class="alfagallery__img">
+							<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-04.jpg.image.700.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-04.jpg.image.1400.jpg 2x" media="(min-width: 992px)">
+							<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-04.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-04.jpg.image.600.jpg 2x" media="(min-width: 576px)">
+							<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-VLP-gallery-Thumb-04.jpg.image.700.jpg" data-srcset="<%=path%>img/DT21-VLP-gallery-Thumb-04.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-04.jpg.image.600.jpg 2x" alt="A head-on view of the grille and front fascia of the 2021 Ram 1500 as it's driven on a dirt road.">
+						</picture>
+					</a>
+				</div>
+				<!-- колонка 3 -->
+				<div class="alfagallery__column alfagallery__column_third">
+					<a class="alfagallery__item" data-fancybox="alfagallery" href="<%=path%>img/DT21-VLP-gallery-Expanded-05.jpg.image.1440.jpg">
+						<picture class="alfagallery__img">
+							<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-05.jpg.image.700.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-05.jpg.image.1400.jpg 2x" media="(min-width: 992px)">
+							<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-05.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-05.jpg.image.600.jpg 2x" media="(min-width: 576px)">
+							<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-VLP-gallery-Thumb-05.jpg.image.700.jpg" data-srcset="<%=path%>img/DT21-VLP-gallery-Thumb-05.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-05.jpg.image.600.jpg 2x" alt="A close-up of the taillamp on the 2021 Ram 1500 Rebel.">
+						</picture>
+					</a>
+					<a class="alfagallery__item alfagallery__item_last" data-fancybox="alfagallery" href="<%=path%>img/DT21-VLP-gallery-Expanded-06.jpg.image.1440.jpg">
+						<picture class="alfagallery__img">
+							<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-06.jpg.image.700.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-06.jpg 2x" media="(min-width: 992px)">
+							<source srcset="<%=path%>img/DT21-VLP-gallery-Thumb-06.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-06.jpg.image.600.jpg 2x" media="(min-width: 576px)">
+							<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-VLP-gallery-Thumb-06.jpg.image.700.jpg" data-srcset="<%=path%>img/DT21-VLP-gallery-Thumb-06.jpg.image.300.jpg, <%=path%>img/DT21-VLP-gallery-Thumb-06.jpg.image.600.jpg 2x" alt="A close-up of the Rebel badging on the glove compartment of the 2021 Ram 1500 Rebel.">
+						</picture>
+					</a>
+				</div>
+			</div>
+			<a class="alfagallery__link btn gcss-button" href="/ram-1500/gallery/">
+				Изучить все фото
+			</a>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Екстеръер -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="img-desc">
+			<!-- Заголовок секции -->
+			<h2 class="img-desc__title">
+				Экстерьер/Внешний ид
+			</h2>
+			<div class="img-desc__grid img-desc__grid_reverse">
+				<!-- картинка к описанию -->
+				<picture class="img-desc__image">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Exterior-Mobile.jpg.image.1000.jpg, <%=path%>img/MY21-RAM-1500-VLP-Exterior-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Exterior-Mobile.jpg.image.700.jpg, <%=path%>img/MY21-RAM-1500-VLP-Exterior-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+					<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/MY21-RAM-1500-VLP-Exterior-Desktop.jpg.image.1000.jpg" data-srcset="<%=path%>img/MY21-RAM-1500-VLP-Exterior-Mobile.jpg.image.500.jpg, <%=path%>img/MY21-RAM-1500-VLP-Exterior-Mobile.jpg.image.1000.jpg 2x" alt="">
+				</picture>
+				<!-- текстовый контент -->
+				<div class="img-desc__content">
+					<h2 class="img-desc__content-title">
+						Отличный дизайн, Отличная функциональность
+					</h2>
+					<p class="img-desc__text">
+						Надёжный, функциональный и стильный - откройте для себя такие ориентированные на максимальное удобство функции, как система хранения вещей RamBox<sup>®</sup>, эксклюзивную для своего класса, а также оригинальные пакеты внешнего вида, такие как Night Edition.
+					</p>
+					<a class="img-desc__link btn gcss-button" href="/ram-1500/exterior/">
+						Изучить экстерьер
+					</a>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Интеръер -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="img-desc">
+			<!-- заголовок секции -->
+			<h2 class="img-desc__title">
+				Интерьер
+			</h2>
+			<div class="img-desc__grid">
+				<!-- картинка к описанию -->
+				<picture class="img-desc__image">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Interior-Mobile.jpg.image.1000.jpg, <%=path%>img/MY21-RAM-1500-VLP-Interior-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Interior-Mobile.jpg.image.700.jpg, <%=path%>img/MY21-RAM-1500-VLP-Interior-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+					<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/MY21-RAM-1500-VLP-Interior-Desktop.jpg.image.1000.jpg" data-srcset="<%=path%>img/MY21-RAM-1500-VLP-Interior-Mobile.jpg.image.500.jpg, <%=path%>img/MY21-RAM-1500-VLP-Interior-Mobile.jpg.image.1000.jpg 2x" alt="">
+				</picture>
+				<!-- текстовый контент -->
+				<div class="img-desc__content">
+					<h2 class="img-desc__content-title">
+						Самый люксовый пикап в своём классе
+					</h2>
+					<p class="img-desc__text">
+						От 100% кожаных сидений на Limited до уникальных опций салона, включая огромный 12-дюймовый сенсорный экран Uconnect<sup>®</sup> и новый проекционный дисплей на лобовое стекло - эти премиальные опции не похожи на те, что были в пикапе вашего дедушки.
+					</p>
+					<a class="img-desc__link btn gcss-button" href="/ram-1500/interior/">
+						Изучить интерьер
+					</a>
+				</div>
+			</div>
+		</section>
+
+		
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Безопасность -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="img-desc">
+			<!-- заголовок секции -->
+			<h2 class="img-desc__title">
+				Безопасность и защита
+			</h2>
+			<div class="img-desc__grid img-desc__grid_reverse">
+				<!-- картинка к описанию -->
+				<picture class="img-desc__image">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Safety-Mobile.jpg.image.1000.jpg, <%=path%>img/MY21-RAM-1500-VLP-Safety-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/MY21-RAM-1500-VLP-Safety-Mobile.jpg.image.700.jpg, <%=path%>img/MY21-RAM-1500-VLP-Safety-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+					<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/MY21-RAM-1500-VLP-Safety-Desktop.jpg.image.1000.jpg" data-srcset="<%=path%>img/MY21-RAM-1500-VLP-Safety-Mobile.jpg.image.500.jpg, <%=path%>img/MY21-RAM-1500-VLP-Safety-Mobile.jpg.image.1000.jpg 2x" alt="The 2021 Ram 1500 illustrated, with sensors monitoring the front, rear and both sides of the vehicle, detecting objects in its vicinity.">
+				</picture>
+				<!-- текстовый контент -->
+				<div class="img-desc__content">
+					<h2 class="img-desc__content-title">
+						Передовые технологии безопасности
+					</h2>
+					<p class="img-desc__text">
+						Ваше душевное спокойствие - наш главный приоритет. Вот почему RAM 1500 2021 года был разработан с учётом последних разработок и достежений в области безопасности и защиты водителя, пассажиров и пешеходо, включая систему экстренного торможения перед пешеходоми, предупреждение о лобовом столкновении с активным торможением и мониторинг слепых зон водителя с обнаружением объектов при движении задним ходом.
+					</p>
+					<a class="img-desc__link btn gcss-button" href="/ram-1500/safety-security/">
+						Изучить безопасность и защиту
+					</a>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Сделано за последние 5 лет -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="capabilitygraph">
+			<!-- заголовок секции -->
+			<h2 class="capabilitygraph__title">
+				Создан на века
+			</h2>
+			<div class="capabilitygraph__items">
+				<div class="capabilitygraph__item row">
+					<!-- иконка -->
+					<div class="capabilitygraph__img-block col-sm-3 col-md-2">
+						<img class="capabilitygraph__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Capability_graph_icon_2x.png" alt="Included">
+					</div>
+					<!-- текстовый контент -->
+					<div class="capabilitygraph__data-block col-sm-9 col-md-10">
+						<div class="row">
+							<div class="capabilitygraph__copy-block col-xs-12 col-sm-9">
+								<h3 class="capabilitygraph__item-title">
+									<span>
+										<span class="capabilitygraph__year">5</span>
+										<span class="capabilitygraph__widget-body">лет</span>
+									</span>
+									<span>
+										Ограниченная гарантия на дизельный двигатель.
+									</span>
+								</h3>
+							</div>
+							<div class="sdp-col-xs-3 sdp-col-sm-3 sdp-col-md-2 sdp-col-lg-2"></div>
+							<div class="capabilitygraph__unit-block col-xs-6 col-sm-6 col-md-3">
+								<span class="capabilitygraph__value">
+									<span class="counter" data-end="150000">150000</span><sup class="capabilitygraph__units">км.</sup>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- прогресс-бар -->
+					<div class="proggress-bar col-xs-12">
+						<div class="proggress-bar__outer">
+							<div class="proggress-bar__inner" style="max-width: 100%"></div>
+						</div>
+					</div>
+				</div>
+				<div class="capabilitygraph__item row">
+					<!-- иконка -->
+					<div class="capabilitygraph__img-block col-sm-3 col-md-2">
+						<img class="capabilitygraph__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Capability_graph_icon_2x.png" alt="Included">
+					</div>
+					<!-- текстовый контент -->
+					<div class="capabilitygraph__data-block col-sm-9 col-md-10">
+						<div class="row">
+							<div class="capabilitygraph__copy-block col-xs-12 col-sm-9">
+								<h3 class="capabilitygraph__item-title">
+									<span>
+										<span class="capabilitygraph__year">5</span>
+										<span class="capabilitygraph__widget-body">лет</span>
+									</span>
+									<span>
+										Помощь на дороге. Доставка дизеля.
+									</span>
+								</h3>
+							</div>
+							<div class="sdp-col-xs-3 sdp-col-sm-3 sdp-col-md-2 sdp-col-lg-2"></div>
+							<div class="capabilitygraph__unit-block col-xs-6 col-sm-6 col-md-3">
+								<span class="capabilitygraph__value">
+									<span class="counter" data-end="150000">150000</span><sup class="capabilitygraph__units">км.</sup>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- прогресс-бар -->
+					<div class="proggress-bar col-xs-12">
+						<div class="proggress-bar__outer">
+							<div class="proggress-bar__inner" style="max-width: 100%"></div>
+						</div>
+					</div>
+				</div>
+				<div class="capabilitygraph__item row">
+					<!-- иконка -->
+					<div class="capabilitygraph__img-block col-sm-3 col-md-2">
+						<img class="capabilitygraph__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Capability_graph_icon_2x.png" alt="Included">
+					</div>
+					<!-- текстовый контент -->
+					<div class="capabilitygraph__data-block col-sm-9 col-md-10">
+						<div class="row">
+							<div class="capabilitygraph__copy-block col-xs-12 col-sm-9">
+								<h3 class="capabilitygraph__item-title">
+									<span>
+										<span class="capabilitygraph__year">5</span>
+										<span class="capabilitygraph__widget-body">лет</span>
+									</span>
+									<span>
+										Ограниченная гарантия на сквозную коррозию.
+									</span>
+								</h3>
+							</div>
+							<div class="sdp-col-xs-3 sdp-col-sm-3 sdp-col-md-2 sdp-col-lg-2"></div>
+							<div class="capabilitygraph__unit-block col-xs-6 col-sm-6 col-md-3">
+								<span class="capabilitygraph__value">
+									<span class="counter" data-end="150000">150000</span><sup class="capabilitygraph__units">км.</sup>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- прогресс-бар -->
+					<div class="proggress-bar col-xs-12">
+						<div class="proggress-bar__outer">
+							<div class="proggress-bar__inner" style="max-width: 100%"></div>
+						</div>
+					</div>
+				</div>
+				<div class="capabilitygraph__item row">
+					<!-- иконка -->
+					<div class="capabilitygraph__img-block col-sm-3 col-md-2">
+						<img class="capabilitygraph__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Capability_graph_icon_2x.png" alt="Included">
+					</div>
+					<!-- текстовый контент -->
+					<div class="capabilitygraph__data-block col-sm-9 col-md-10">
+						<div class="row">
+							<div class="capabilitygraph__copy-block col-xs-12 col-sm-9">
+								<h3 class="capabilitygraph__item-title">
+									<span>
+										<span class="capabilitygraph__year">5</span>
+										<span class="capabilitygraph__widget-body">лет</span>
+									</span>
+									<span>
+										Ограниченная гарантия на бензиновый двигатель.
+									</span>
+								</h3>
+							</div>
+							<div class="sdp-col-xs-3 sdp-col-sm-3 sdp-col-md-2 sdp-col-lg-2"></div>
+							<div class="capabilitygraph__unit-block col-xs-6 col-sm-6 col-md-3">
+								<span class="capabilitygraph__value">
+									<span class="counter" data-end="100000">100000</span><sup class="capabilitygraph__units">км.</sup>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- прогресс-бар -->
+					<div class="proggress-bar col-xs-12">
+						<div class="proggress-bar__outer">
+							<div class="proggress-bar__inner" style="max-width: 60%"></div>
+						</div>
+					</div>
+				</div>
+				<div class="capabilitygraph__item row">
+					<!-- иконка -->
+					<div class="capabilitygraph__img-block col-sm-3 col-md-2">
+						<img class="capabilitygraph__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Capability_graph_icon_2x.png" alt="Included">
+					</div>
+					<!-- текстовый контент -->
+					<div class="capabilitygraph__data-block col-sm-9 col-md-10">
+						<div class="row">
+							<div class="capabilitygraph__copy-block col-xs-12 col-sm-9">
+								<h3 class="capabilitygraph__item-title">
+									<span>
+										<span class="capabilitygraph__year">5</span>
+										<span class="capabilitygraph__widget-body">ЛЕТ</span>
+									</span>
+									<span>
+										Помощь на дороге. Доставка бензина.
+									</span>
+								</h3>
+							</div>
+							<div class="sdp-col-xs-3 sdp-col-sm-3 sdp-col-md-2 sdp-col-lg-2"></div>
+							<div class="capabilitygraph__unit-block col-xs-6 col-sm-6 col-md-3 col-lg-3">
+								<span class="capabilitygraph__value">
+									<span class="counter" data-end="100000">100000</span><sup class="capabilitygraph__units">км.</sup>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- прогресс-бар -->
+					<div class="proggress-bar col-xs-12">
+						<div class="proggress-bar__outer">
+							<div class="proggress-bar__inner" style="max-width: 60%"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Наши награды -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="copy-box gcss-theme-light">
+			<!-- заголовок секции -->
+			<h2 class="copy-box__title">
+				Награды
+			</h2>
+			<p class="copy-box__text col-xs-12 col-sm-10 col-lg-6 not-float">
+				Некоторые из этих наград были получены за модель RAM 1500 2020 года и демонстрируют продуманный дизайн и впечатляющие возможности модели.
+			</p>
+			<a class="copy-box__link btn" href="#">
+				Узнать больше наград
+			</a>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Список наград -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="blurb-rail dots" style="margin-bottom: 0" id="awards">
+			<div class="container">
+				<ul class="blurb-rail__list" style="flex-wrap: nowrap">
+					<li class="blurb-rail__item">
+						<img class="blurb-rail__item-img" src="<%=path%>img/DT21-VLP-Awards-Texas.jpg" alt="Texas Auto Writers Association.">
+						<p class="blurb-rail__item-description">
+							Truck of Texas as voted by the Texas Auto Writers Association
+						</p>
+					</li>
+					<li class="blurb-rail__item">
+						<img class="blurb-rail__item-img" src="<%=path%>img/DT21-VLP-Awards-Texas2.jpg" alt="Texas Auto Writers Association.">
+						<p class="blurb-rail__item-description">
+							The Off-Road Pickup Truck of Texas is the 2021 Ram 1500 TRX
+						</p>
+					</li>
+					<li class="blurb-rail__item">
+						<img class="blurb-rail__item-img" src="<%=path%>img/DT21-VLP-Awards-Texas.jpg" alt="Texas Auto Writers Association.">
+						<p class="blurb-rail__item-description">
+							Truck of Texas as voted by the Texas Auto Writers Association
+						</p>
+					</li>
+					<li class="blurb-rail__item">
+						<img class="blurb-rail__item-img" src="<%=path%>img/DT21-VLP-Awards-02.jpg" alt="2021 Consumer Guide Best Buy. 13 Years in a row.">
+						<p class="blurb-rail__item-description">
+							Consumer Guide® Best Buy Award Winner for 13 Years
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Отзывы о RAM Brand -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="img-desc img-desc_second">
+			<div class="img-desc__grid">
+				<!-- картинка к описанию -->
+				<picture class="img-desc__image">
+					<source srcset="<%=path%>img/JD-Power-Logo-Final-2x.jpg.image.1000.jpg, <%=path%>img/JD-Power-Logo-Final-2x.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/JD-Power-Logo-Final-2x.jpg.image.700.jpg, <%=path%>img/JD-Power-Logo-Final-2x.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+					<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/JD-Power-Logo-Final-2x.jpg.image.1000.jpg" data-srcset="<%=path%>img/JD-Power-Logo-Final-2x.jpg.image.500.jpg, <%=path%>img/JD-Power-Logo-Final-2x.jpg.image.1000.jpg 2x" alt="">
+				</picture>
+				<!-- текстовый контент -->
+				<div class="img-desc__content">
+					<h2 class="img-desc__content-title">
+						Что говорят о RAM реальные владельцы
+					</h2>
+					<p class="img-desc__text">
+						Посмотрите, что J.D. Power и реальные клиенты говорят о бренде RAM в иследованиях J.D. Power Initial Quality и Driver Appeal.
+					</p>
+					<a class="img-desc__link btn gcss-button" href="https://www.ramtrucks.com/content/dam/fca-brands/na/ramtrucks/en_us/2020/ram-1500/VLP/Desktop/Awards/2020-SPR-RAM1500-CS-091620.pdf" target="_blank">
+						Загрузить отчёт
+					</a>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Микроконфигуратор -->
+		<section class="specs gcss-theme-light" id="trims">
+			<h2 class="specs__title">
+				Выбери свой RAM
+			</h2>
+			<div class="specs__subtitle">
+				Модуль выбора комплектации
+			</div>
+			<ul class="cars-carousel">
+				<div class="cars-carousel__wrapper owl-carousel center">
+					<li class="cars-carousel__item active" id="1">
+						<img class="cars-carousel__img" src="<%=path%>img/iris.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="9">
+						<img class="cars-carousel__img" src="<%=path%>img/iris2.png" alt="BIG HORN®">
+						<h4 class="cars-carousel__title">Big Horn<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="15">
+						<img class="cars-carousel__img" src="<%=path%>img/iris3.png" alt="LARAMIE®">
+						<h4 class="cars-carousel__title">Laramie<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="21">
+						<img class="cars-carousel__img" src="<%=path%>img/iris4.png" alt="REBEL®">
+						<h4 class="cars-carousel__title">Rebel<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="23">
+						<img class="cars-carousel__img" src="<%=path%>img/iris5.png" alt="LIMITED LONGHORN™">
+						<h4 class="cars-carousel__title">Limited Longhorn™</h4>
+					</li>
+					<li class="cars-carousel__item" id="27">
+						<img class="cars-carousel__img" src="<%=path%>img/iris6.png" alt="LIMITED">
+						<h4 class="cars-carousel__title">Limited</h4>
+					</li>
+				</div>
+			</ul>
+			<div class="specs__info center"></div>
+		</section>
+
+
+	</main>
+
+	<!-- Скрипты для страницы -->
+	<script src="<%=path%>js/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+	"name": "ramtrucks",
+	"version": "1.0.0",
+	"description": "ramtrucks",
+	"main": "index.js",
+	"scripts": {
+		"server": "gulp watch",
+		"build": "gulp build"
+	},
+	"keywords": [
+		"ramtrucks"
+	],
+	"author": "HoneyMoney <super.matvij@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/core": "^7.14.6",
+		"@babel/preset-env": "^7.14.7",
+		"@fancyapps/fancybox": "^3.5.7",
+		"@fancyapps/ui": "^4.0.0-alpha.4",
+		"ansi-colors": "^4.1.1",
+		"browser-sync": "^2.27.4",
+		"del": "^6.0.0",
+		"fancy-log": "^1.3.3",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-browserify": "^0.5.1",
+		"gulp-concat": "^2.6.1",
+		"gulp-critical-css": "^1.0.1",
+		"gulp-csso": "^4.0.1",
+		"gulp-file-include": "^2.3.0",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-preprocess": "^4.0.2",
+		"gulp-processhtml": "^1.2.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.0.0",
+		"gulp-uglify-es": "^2.0.0",
+		"jquery": "^3.6.0",
+		"jquery-lazyload": "^1.9.7",
+		"lazyload": "^2.0.0-rc.2",
+		"lazysizes": "^5.3.2",
+		"minimist": "^1.2.5",
+		"owl.carousel": "^2.3.4",
+		"pannellum": "^2.5.6",
+		"sass": "^1.35.1",
+		"zurb-twentytwenty": "^0.1.1"
+	}
+}

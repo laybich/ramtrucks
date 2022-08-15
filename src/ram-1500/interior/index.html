@@ -1,0 +1,389 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!doctype html>
+<!-- Оболочка документа, указываем яык содержимого -->
+<html lang="en">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+@@include('../../_header.html', {"title":"Интерьер"})
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка для демонстрации -->
+	<main class="main">
+
+		<!-- Контент -->
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Навигация по модели -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="secondary-navigation__modelname secondary-navigation__modelname_mobile">
+			<h1 class="secondary-navigation__title">2021 RAM 1500</h1>
+		</div>
+		<div class="secondary-navigation" id="secondary-nav">
+			<div class="secondary-navigation__modelname">
+				<!-- надпись модели -->
+				<h1 class="secondary-navigation__title">2021 RAM 1500</h1>
+			</div>
+			<nav class="secondary-navigation__menu nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/">
+							Обзор
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/gallery/">
+							Галерея
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/capability/">
+							Возможности
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/exterior/">
+							Экстерьер
+						</a>
+					</li>
+					<li class="nav__item nav__item_active">
+						<a class="nav__link" href="/ram-1500/interior/">
+							Интерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/safety-security/">
+							Безопасность и защита
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/multifunction-tailgate/">
+							Многофункциональный откидной борт
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/compare/">
+							Сравнить
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/specs/">
+							Спецификации
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/commercial/">
+							RAM для бизнеса
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Первый экран: интерьер Ram 1500 -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="qvmedia-block gcss-theme-light">
+			<div class="qvmedia-block__suptitle">2021 RAM 1500 ИНТЕРЬЕР</div>
+			<h2 class="qvmedia-block__title gcss-typography-brand-heading-3">
+				Самый роскошный пикап в своём классе
+			</h2>
+			<picture class="qvmedia-block__bg">
+				<source srcset="<%=path%>img/DT21-Interior-hero-Desktop.jpg" media="(min-width: 768px)">
+				<source srcset="<%=path%>img/DT21-Interior-hero-Mobile.jpg" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-hero-Desktop.jpg" data-srcset="<%=path%>img/DT21-Interior-hero-Mobile.jpg" alt="A three-quarter view of the 2021 Ram 1500 posed against a red brick wall.">
+			</picture>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Проекционный дисплей -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="img-desc">
+			<div class="img-desc__grid">
+				<picture class="img-desc__image">
+					<source srcset="<%=path%>img/DT21-Interior-HUD-Desktop.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-HUD-Desktop.jpg.image.2000.jpg 2x" media="(min-width: 992px)">
+					<source srcset="<%=path%>img/DT21-Interior-HUD-Mobile.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-HUD-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/DT21-Interior-HUD-Mobile.jpg.image.700.jpg, <%=path%>img/DT21-Interior-HUD-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+					<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-HUD-Desktop.jpg.image.1000.jpg" data-srcset="<%=path%>img/DT21-Interior-HUD-Mobile.jpg.image.500.jpg, <%=path%>img/DT21-Interior-HUD-Mobile.jpg.image.1000.jpg 2x" alt="">
+				</picture>
+				<div class="img-desc__content">
+					<h2 class="img-desc__content-title">
+						Проекционный дисплей
+					</h2>
+					<p class="img-desc__text">
+						Управляйте автомобилем безопасно, не отвлекаясь от дороги, благодаря новому проекционному дисплею, на котором отображаются такие данные, как скорость, входящие вызовы, уведомления навигации и ездовой режим автомобиля.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Цифровое салонное зеркало -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="copy-box gcss-theme-light">
+			<h2 class="copy-box__title gcss-typography-brand-heading-3">
+				Цифровое салонное зеркало
+			</h2>
+			<div class="row">
+				<p class="copy-box__text col-xs-10 col-sm-10 col-md-6 col-lg-6 not-float">
+					Получите полное представление о дорожной ситуации позади автомобиля. Новое цифровое зеркало заднего вида оснащено встроенным ЖК-монитором, который может выводить на экран зеркала изображение с задней камеры.
+				</p>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Большое изображение -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="qvmedia-block">
+			<picture class="qvmedia-block__bg">
+				<source srcset="<%=path%>img/DT21-Interior-Mirror-Desktop.jpg" media="(min-width: 768px)">
+				<source srcset="<%=path%>img/DT21-Interior-Mirror-Mobile.jpg" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Mirror-Desktop.jpg" data-srcset="<%=path%>img/DT21-Interior-Mirror-Mobile.jpg" alt="">
+			</picture>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Особенности интерьера -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="sticky-media gcss-theme-light">
+			<div class="row">
+				<div class="sticky-media__static col-xs-6 col-sm-6 col-lg-4">
+					<div class="sticky-media__item sticky-media__item_active" data-target="123">
+						<h2 class="sticky-media__item-title">
+							12-Дюймовый сенсорный экран Uconnect<sup>®</sup>
+						</h2>
+						<p class="sticky-media__text">
+							Мультимедийный центр Uconnect<sup>®</sup> 12.0 с навигацией, оснащенный усовершенствованным 12-дюймовым сенсорным экраном, может похвастаться настраиваемым домашним экраном с возможностью разделения экрана, технологией сжатия и масштабирования и физическими элементами управления ключевыми функциями. Вы можете легко и самое главное быстро получить доступ к важной именно для вас информации.
+						</p>
+					</div>
+					<div class="sticky-media__item" data-target="234">
+						<h2 class="sticky-media__item-title">
+							Подключите ваш смартфон
+						</h2>
+						<p class="sticky-media__text">
+							Усовершенствованная система Uconnect<sup>®</sup> позволяет пользователям iPhone<sup>®</sup> и Android™ использовать её для вывода информации с экрана смартфона на центральный дисплей. Плюс, с Apple CarPlay<sup>®</sup> вы можете слушать музыку, отправлять и принимать звонки, получать указания по навигации и получать доступ к некоторым приложениям для iPhone через 12-дюймовый сенсорный экран.  Android Auto™ обеспечивает доступ к приложениям, возможность совершать звонки, открывать плейлисты и многое другое не отвлекаясь на экран телефона.
+						</p>
+					</div>
+					<div class="sticky-media__item" data-target="345">
+						<h2 class="sticky-media__item-title">
+							Досуг с SiriusXM<sup>®</sup>
+						</h2>
+						<p class="sticky-media__text">
+							SiriusXM<sup>®</sup> 360L позволяет легко развлекаться на ходу с новым контентом, персонализированными рекомендациями, полным голосовым управлением и другими опциями. Благодаря синхронизации через подключенный мобильный телефон, вы получите беспрепятственный доступ из автомобиля в мобильное приложение, чтобы вы могли продолжить слушать любимый трек, даже после того, как прибыли в пункт назначения. Точка доступа Wi-Fi 4G позволяет вашим пассажирам оставаться на связи в дороге, а с SiriusXM Guardian™ и удаленным запуском двигателя Вы будете спокойны за сохранность автомобиля, куда бы вы ни отправились.
+						</p>
+					</div>
+				</div>
+				<div class="sticky-media__dynamic col-xs-6 col-sm-6 col-lg-7" style="top:120px">
+					<img class="sticky-media__image sticky-media__image_active lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Uconnect-Desktop_01.jpg" id="123" alt="">
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Apple-Desktop-02.jpg" id="234" alt="">
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Sirius-Desktop_03.jpg" id="345" alt="">
+				</div>
+			</div>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Центральный дисплей -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="qvmedia-block gcss-theme-light">
+			<h2 class="qvmedia-block__title gcss-typography-brand-heading-3">
+				Информация на центральном дисплее
+			</h2>
+			<div class="qvmedia-block__subtitle">
+				Оживите дисплей с помощью полноцветной трехмерной графики на центральном 7-дюймовом дисплее, добавляя к стандартным показателям скорости и оборотов двигателя необходимую вам информацию.
+			</div>
+			<picture class="qvmedia-block__bg">
+				<source srcset="<%=path%>img/DT21-Interior_Cluster-Desktop.jpg" media="(min-width: 768px)">
+				<source srcset="<%=path%>img/DT21-Interior_Cluster-Mobile.jpg" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior_Cluster-Desktop.jpg" data-srcset="<%=path%>img/DT21-Interior_Cluster-Mobile.jpg" alt="The 7-inch Driver Information Digital Cluster Display showing the status of the trailer light check.">
+			</picture>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= HARMAN KARDON -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="img-desc">
+			<div class="img-desc__grid">
+				<picture class="img-desc__image">
+					<source srcset="<%=path%>img/DT21-Interior-Speaker-Desktop.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-Speaker-Desktop.jpg.image.2000.jpg 2x" media="(min-width: 992px)">
+					<source srcset="<%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.700.jpg, <%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+					<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Speaker-Desktop.jpg.image.1000.jpg" data-srcset="<%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.500.jpg, <%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.1000.jpg 2x" alt="">
+				</picture>
+				<div class="img-desc__content">
+					<h2 class="img-desc__content-title">
+						HARMAN KARDON<sup>®</sup> PREMIUM AUDIO
+					</h2>
+					<p class="img-desc__text">
+						Наслаждайтесь музыкой в дороге. RAM 1500 2021 года может похвастаться аудиосистемой Harman Kardon<sup>®</sup> Premium мощностью 900 Вт с самым большим количеством динамиков в своем классе. Эта исключительная система с 19 динамиками доступна для моделей Laramie<sup>®</sup>, Rebel<sup>®</sup>, Limited Longhorn™ и Limited.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Продуманый интерьер -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="blurb-rail">
+			<div class="container">
+				<ul class="blurb-rail__list row d-block">
+					<li class="blurb-rail__item col-xs-12 col-sm-4">
+						<picture class="blurb-rail__item-img">
+							<source srcset="<%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.1440.jpg, <%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+							<source srcset="<%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+							<source srcset="<%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.700.jpg, <%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+							<img class="lazyload" src="<%= path %>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.1440.jpg" data-srcset="<%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.500.jpg, <%=path%>img/DT21-Interior-Noise-Desktop-01.jpg.image.1000.jpg 2x" alt="">
+						</picture>
+						<h3 class="blurb-rail__item-title">
+							Технология активного шумоподавления
+						</h3>
+						<p class="blurb-rail__item-description">
+							Уменьшите уровень внутреннего шума и наслаждайтесь тишиной в салоне благодаря встроенным в кузов демпферам вибраций и внутренней системе активного шумоподавления. Благодаря этой инновации вы можете чувствовать себя в зоне комфорта с шумами в салоне не превышающими 57,6 децибел.
+						</p>
+					</li>
+					<li class="blurb-rail__item col-xs-12 col-sm-4">
+						<picture class="blurb-rail__item-img">
+							<source srcset="<%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.1440.jpg, <%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+							<source srcset="<%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+							<source srcset="<%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.700.jpg, <%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+							<img class="lazyload" src="<%= path %>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.1440.jpg" data-srcset="<%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.500.jpg, <%=path%>img/DT21-Interior-Connectivity-Desktop-02.jpg.image.1000.jpg 2x" alt="">
+						</picture>
+						<h3 class="blurb-rail__item-title">
+							Оставайтесь на связи
+						</h3>
+						<p class="blurb-rail__item-description">
+							Поддерживайте заряд ваших устрйоств и оставайтесь на связи в пути. RAM оснащен легкодоступными вспомогательными портами, до четырёх сверхбыстрых USB-портов для зарядки и до трёх розеток на 115 вольт, обеспечивающих постоянное питание.
+						</p>
+					</li>
+					<li class="blurb-rail__item col-xs-12 col-sm-4">
+						<picture class="blurb-rail__item-img">
+							<source srcset="<%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.1440.jpg, <%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+							<source srcset="<%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+							<source srcset="<%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.700.jpg, <%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+							<img class="lazyload" src="<%= path %>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.1440.jpg" data-srcset="<%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.500.jpg, <%=path%>img/DT21-Interior-Sunroof-Desktop-03.jpg.image.1000.jpg 2x" alt="">
+						</picture>
+						<h3 class="blurb-rail__item-title">
+							Панорамная крыша
+						</h3>
+						<p class="blurb-rail__item-description">
+							Огромный панорамный люк предлагает пассажирам чувство дополнительного объёма, вид на открытое небо 365 дней в году и натуральное освещение в салоне.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Особенности интерьера -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="sticky-media gcss-theme-light">
+			<div class="row">
+				<div class="sticky-media__static col-xs-6 col-sm-6 col-lg-4">
+					<div class="sticky-media__item sticky-media__item_active" data-target="456">
+						<h2 class="sticky-media__item-title">
+							Лучшее в классе пространство для ног задних пассажиров
+						</h2>
+						<p class="sticky-media__text">
+							Вашим пассажирам понравится просторное пространство для ног на заднем ряду с расстоянием до переднего сиденья до 1.378 см, поэтому они могут растянуться и чувствовать себя комфортно даже в длительных поездках.
+						</p>
+					</div>
+					<div class="sticky-media__item" data-target="567">
+						<h2 class="sticky-media__item-title">
+							Заднее сидение с регулируемым наклоном спинки
+						</h2>
+						<p class="sticky-media__text">
+							Откидывающееся заднее сиденье Class-Exclusive предлагает восемь степеней наклона так что вы можете отрегулировать наклон в соответствии с вашим комфортом.
+						</p>
+					</div>
+					<div class="sticky-media__item" data-target="678">
+						<h2 class="sticky-media__item-title">
+							Боксы для хранения
+						</h2>
+						<p class="sticky-media__text">
+							Ни один сантиметр в RAM 1500 2021 года не создан без учёта функциональности, как например, напольное хранилище, где вы можете хранить инструменты или личные вещи в безопасном месте.
+						</p>
+					</div>
+				</div>
+				<div class="sticky-media__dynamic col-xs-6 col-sm-6 col-lg-7" style="top:120px">
+					<img class="sticky-media__image sticky-media__image_active lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-LegRoom-Desktop-01.jpg" id="456" alt="">
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Recline-Desktop-02.jpg" id="567" alt="" >
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-UnderSeat-Desktop-03.jpg" id="678" alt="">
+				</div>
+			</div>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Серия LIMITED LONGHORN™ 10TH -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="img-desc">
+			<div class="img-desc__grid">
+				<picture class="img-desc__image">
+					<source srcset="<%=path%>img/DT21-Interior-Speaker-Desktop.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-Speaker-Desktop.jpg.image.2000.jpg 2x" media="(min-width: 992px)">
+					<source srcset="<%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.1000.jpg, <%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+					<source srcset="<%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.700.jpg, <%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+					<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/DT21-Interior-Speaker-Desktop.jpg.image.1000.jpg" data-srcset="<%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.500.jpg, <%=path%>img/DT21-Interior-Speaker-Mobile.jpg.image.1000.jpg 2x" alt="">
+				</picture>
+				<div class="img-desc__content">
+					<h2 class="img-desc__content-title">
+						Серия LIMITED LONGHORN™ 10<sup>TH</sup> ANNIVER­SARY
+					</h2>
+					<p class="img-desc__text">
+						Эта специальная серия модели RAM 1500 Limited Longhorn™, сочетающая в себе суровую привлекательность Longhorn с блеском Limited. Со значками 10th Anniversary на центральной консоли, анимированным изображением приборной панели, эксклюзивным темно-коричневым цветом интерьера и многим другим - этот пакет образец шика и функциональности, которых заслуживает десятилетнее наследие.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Микроконфигуратор -->
+		<section class="specs gcss-theme-light" id="trims">
+			<h2 class="specs__title">
+				Выбери свой RAM
+			</h2>
+			<div class="specs__subtitle">
+				Модуль выбора комплектации
+			</div>
+			<ul class="cars-carousel">
+				<div class="cars-carousel__wrapper owl-carousel center">
+					<li class="cars-carousel__item active" id="1">
+						<img class="cars-carousel__img" src="<%=path%>img/iris.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="9">
+						<img class="cars-carousel__img" src="<%=path%>img/iris2.png" alt="BIG HORN®">
+						<h4 class="cars-carousel__title">Big Horn<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="15">
+						<img class="cars-carousel__img" src="<%=path%>img/iris3.png" alt="LARAMIE®">
+						<h4 class="cars-carousel__title">Laramie<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="21">
+						<img class="cars-carousel__img" src="<%=path%>img/iris4.png" alt="REBEL®">
+						<h4 class="cars-carousel__title">Rebel<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="23">
+						<img class="cars-carousel__img" src="<%=path%>img/iris5.png" alt="LIMITED LONGHORN™">
+						<h4 class="cars-carousel__title">Limited Longhorn™</h4>
+					</li>
+					<li class="cars-carousel__item" id="27">
+						<img class="cars-carousel__img" src="<%=path%>img/iris6.png" alt="LIMITED">
+						<h4 class="cars-carousel__title">Limited</h4>
+					</li>
+				</div>
+			</ul>
+			<div class="specs__info center"></div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Переходник -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="nextprev">
+			<a href="/ram-1500/exterior/" class="nextprev__link nextprev__link_prev">
+				<span class="nextprev__icon _icon-chevron-left-2"></span>
+				<div>
+					<p class="nextprev__sup">Предыдущая</p>
+					<p class="nextprev__page">Экстерьер</p>
+				</div>
+			</a>
+			<a href="/ram-1500/safety-security/" class="nextprev__link nextprev__link_next">
+				<div>
+					<p class="nextprev__sup">Следующая</p>
+					<p class="nextprev__page">Безопасность и защита</p>
+				</div>
+				<span class="nextprev__icon _icon-chevron-right-2"></span>
+			</a>
+		</div>
+
+
+	</main>
+
+	<!-- Скрипты для страницы -->
+	<script src="<%=path%>js/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,610 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!doctype html>
+<!-- Оболочка документа, указываем яык содержимого -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+@@include('../../_header.html', {"title":"Галерея"})
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка для демонстрации -->
+	<main class="main">
+
+		<!-- Контент -->
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Второстепенная навигация -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="secondary-navigation__modelname secondary-navigation__modelname_mobile">
+			<h1 class="secondary-navigation__title">
+				2021 Ram 1500 TRX | Экстремальный внедорожный пикап
+			</h1>
+		</div>
+		<div class="secondary-navigation" id="secondary-nav">
+			<div class="secondary-navigation__modelname">
+				<h1 class="secondary-navigation__title">
+					2021 RAM TRX
+				</h1>
+			</div>
+			<nav class="secondary-navigation__menu nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link" href="/trx/">
+							Обратно к обзору
+						</a>
+					</li>
+					<li class="nav__item nav__item_active">
+						<a class="nav__link" href="/trx/gallery/">
+							Галерея
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Галлерея (alfagallery - галлерея с изображениями) -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="alfagallery alfagallery_page" id="gallery-page">
+			<h2 class="alfagallery__title">Галерея 2021 RAM 1500 TRX</h2>
+			<ul class="alfagallery__tabs">
+				<li class="alfagallery__tab">
+					<a class="alfagallery__link active" href="#"  data-target="all">
+						ВСЕ
+					</a>
+				</li>
+				<li class="alfagallery__tab">
+					<a class="alfagallery__link" href="#" data-target="exterior">
+						ЭКСТЕРЬЕР
+					</a>
+				</li>
+				<li class="alfagallery__tab">
+					<a class="alfagallery__link" href="#" data-target="interoir">
+						ИНТЕРЬЕР
+					</a>
+				</li>
+				<li class="alfagallery__tab">
+					<a class="alfagallery__link" href="#" data-target="video">
+						ВИДЕО
+					</a>
+				</li>
+			</ul>
+			<div class="alfagallery__grid">
+				<a class="alfagallery__item" 
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=qnX_vAXfcB8">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Gallery-The-Edge.jpg.image.1440.jpg, <%=path%>img/TRX-Gallery-The-Edge.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Gallery-The-Edge.jpg.image.1000.jpg, <%=path%>img/TRX-Gallery-The-Edge.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Gallery-The-Edge.jpg.image.700.jpg, <%=path%>img/TRX-Gallery-The-Edge.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Gallery-The-Edge.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Gallery-The-Edge.jpg.image.500.jpg, <%=path%>img/TRX-Gallery-The-Edge.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">The Edge | 2021 Ram 1500 TRX</span>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=r5TmfRW3Hlw">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.1440.jpg, <%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.1000.jpg, <%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.700.jpg, <%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.500.jpg, <%=path%>img/TRX-Gallery-Videos-Shocks-Tires.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">2021 Ram 1500 TRX | Shocks and Tires</span>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=6c7WcAjkKh8">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Horsepower.jpg.image.1440.jpg, <%=path%>img/TTRX-Gallery-Videos-Horsepower.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Horsepower.jpg.image.1000.jpg, <%=path%>img/TRX-Gallery-Videos-Horsepower.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Horsepower.jpg.image.700.jpg, <%=path%>img/TRX-Gallery-Videos-Horsepower.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Gallery-Videos-Horsepower.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Gallery-Videos-Horsepower.jpg.image.500.jpg, <%=path%>img/TRX-Gallery-Videos-Horsepower.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">2021 Ram 1500 TRX | Horsepower</span>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=Gj4kUTdOu7k">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.1440.jpg, <%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.1000.jpg, <%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.700.jpg, <%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.500.jpg, <%=path%>img/TRX-Gallery-Videos-Performance.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">2021 Ram 1500 TRX | Performance</span>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The power has shifted. Come face to face with the most powerful street-legal half-ton truck ever produced.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#performance'&gt;Explore Performance&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/The-Face-of_TRX.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/The-Face-of_TRX.jpg.image.1440.jpg, <%=path%>img/The-Face-of_TRX.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/The-Face-of_TRX.jpg.image.1000.jpg, <%=path%>img/The-Face-of_TRX.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/The-Face-of_TRX.jpg.image.700.jpg, <%=path%>img/The-Face-of_TRX.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/The-Face-of_TRX.jpg.image.1440.jpg" data-srcset="<%=path%>img/The-Face-of_TRX.jpg.image.500.jpg, <%=path%>img/The-Face-of_TRX.jpg.image.1000.jpg 2x" alt="Display A head-on view of the 2021 Ram 1500 TRX at sunset with its headlamps, high beams and fog lamps lit.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The TRX-specific aluminum hood makes room for the Supercharged 6.2L HEMI&gt;sup&gt;®&gt;/sup&gt; V8 powerplant below it. Two-tiered offsets from the center dome portion of the hood convey uncommon power.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/One-Menacing_Grille.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/One-Menacing_Grille.jpg.image.1440.jpg, <%=path%>img/One-Menacing_Grille.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/One-Menacing_Grille.jpg.image.1000.jpg, <%=path%>img/One-Menacing_Grille.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/One-Menacing_Grille.jpg.image.700.jpg, <%=path%>img/One-Menacing_Grille.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/One-Menacing_Grille.jpg.image.1440.jpg" data-srcset="<%=path%>img/One-Menacing_Grille.jpg.image.500.jpg, <%=path%>img/One-Menacing_Grille.jpg.image.1000.jpg 2x" alt="Display A close-up of the 2021 Ram 1500 TRX front grille.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="A menacing grille, functional air intake scoop and flow-through R-A-M badge ensure unobstructed air flow to the engine.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Hood.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Hood.jpg.image.1440.jpg, <%=path%>img/TRX_Hood.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Hood.jpg.image.1000.jpg, <%=path%>img/TRX_Hood.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Hood.jpg.image.700.jpg, <%=path%>img/TRX_Hood.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Hood.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Hood.jpg.image.500.jpg, <%=path%>img/TRX_Hood.jpg.image.1000.jpg 2x" alt="Display A close-up of the red lights on the center dome of the 2021 Ram 1500 TRX hood.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="TRX features Bilstein&lt;sup&gt;®&lt;/sup&gt; Black Hawk&lt;sup&gt;®&lt;/sup&gt; e&lt;sup&gt;2&lt;/sup&gt; shocks with a proprietary algorithm that continuously adapts to speed, throttle position and steering angle to give you more control when conquering what comes your way.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#control'&gt;Explore Control&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX-Dune-Dust1.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Dune-Dust1.jpg.image.1440.jpg, <%=path%>img/TRX-Dune-Dust1.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Dune-Dust1.jpg.image.1000.jpg, <%=path%>img/TRX-Dune-Dust1.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Dune-Dust1.jpg.image.700.jpg, <%=path%>img/TRX-Dune-Dust1.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Dune-Dust1.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Dune-Dust1.jpg.image.500.jpg, <%=path%>img/TRX-Dune-Dust1.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX churning up clouds of sand from its wheels as it is driven over a dune.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The TRX was built to conquer the desert’s most rugged, challenging trails and environments—all while delivering the same unparalleled performance on major highways and city streets.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#performance'&gt;Explore Control&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/Off-Road_TRX.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Off-Road_TRX.jpg.image.1440.jpg, <%=path%>img/Off-Road_TRX.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Off-Road_TRX.jpg.image.1000.jpg, <%=path%>img/Off-Road_TRX.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Off-Road_TRX.jpg.image.700.jpg, <%=path%>img/Off-Road_TRX.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Off-Road_TRX.jpg.image.1440.jpg" data-srcset="<%=path%>img/Off-Road_TRX.jpg.image.500.jpg, <%=path%>img/Off-Road_TRX.jpg.image.1000.jpg 2x" alt="Display A cloud of dust and grit flying up from the rear of the 2021 Ram 1500 TRX as it is driven away.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="With traction-focused tread on 35-inch Goodyear Wrangler Territory All Terrain tires, you’ll be equipped to carve your own path both on-road and off.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX-Tracks-New.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Tracks-New.jpg.image.1440.jpg, <%=path%>img/TRX-Tracks-New.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Tracks-New.jpg.image.1000.jpg, <%=path%>img/TRX-Tracks-New.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Tracks-New.jpg.image.700.jpg, <%=path%>img/TRX-Tracks-New.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Tracks-New.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Tracks-New.jpg.image.500.jpg, <%=path%>img/TRX-Tracks-New.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX being driven over a sand dune, churning up a large dust cloud.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="TRX was designed to keep you in control of all 702 horses whether you’re commanding city streets or crushing the off-roads.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#performance'&gt;Explore Performance&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX-Kicking-Up_Dust.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Kicking-Up_Dust.jpg.image.1440.jpg, <%=path%>img/TRX-Kicking-Up_Dust.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Kicking-Up_Dust.jpg.image.1000.jpg, <%=path%>img/TRX-Kicking-Up_Dust.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Kicking-Up_Dust.jpg.image.700.jpg, <%=path%>img/TRX-Kicking-Up_Dust.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Kicking-Up_Dust.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Kicking-Up_Dust.jpg.image.500.jpg, <%=path%>img/TRX-Kicking-Up_Dust.jpg.image.1000.jpg 2x" alt="Display A rear view of the 2021 Ram 1500 TRX silhuoetted against a sunset.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The competition can eat this truck’s dust. TRX boasts a high-performance air induction system that filters four times as much dirt and debris than the Ford Raptor.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#performance'&gt;Explore Performance&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Plays-Dirty.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Plays-Dirty.jpg.image.1440.jpg, <%=path%>img/TRX_Plays-Dirty.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Plays-Dirty.jpg.image.1000.jpg, <%=path%>img/TRX_Plays-Dirty.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Plays-Dirty.jpg.image.700.jpg, <%=path%>img/TRX_Plays-Dirty.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Plays-Dirty.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Plays-Dirty.jpg.image.500.jpg, <%=path%>img/TRX_Plays-Dirty.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX throwing up a dust cloud as it's driven on sandy terrain.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="When raging off-road, TRX adapts to varied terrain with Bilstein&lt;sup&gt;®&lt;/sup&gt; Black Hawk&lt;sup&gt;®&lt;/sup&gt; e&lt;sup&gt;2&lt;/sup&gt; shocks and ground-breaking suspension technology. Plus, you’ll leave your mark wherever you roam with traction-focused tread on the 35-inch Goodyear Wrangler Territory All Terrain tires.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#control'&gt;Explore Control&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_On-The-Run.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_On-The-Run.jpg.image.1440.jpg, <%=path%>img/TRX_On-The-Run.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_On-The-Run.jpg.image.1000.jpg, <%=path%>img/TRX_On-The-Run.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_On-The-Run.jpg.image.700.jpg, <%=path%>img/TRX_On-The-Run.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_On-The-Run.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_On-The-Run.jpg.image.500.jpg, <%=path%>img/TRX_On-The-Run.jpg.image.1000.jpg 2x" alt="Display A 2021 Ram 1500 TRX being driven toward the camera with a cloud of dust behind it.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The glare of TRX is made all the more menacing with Bifunctional LED Projector Smartbeam Intelligent Headlamps with blacked out bezels and LED fog lamps integrated into the powder-coated bumper.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Glare.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Glare.jpg.image.1440.jpg, <%=path%>img/TRX_Glare.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Glare.jpg.image.1000.jpg, <%=path%>img/TRX_Glare.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Glare.jpg.image.700.jpg, <%=path%>img/TRX_Glare.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Glare.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Glare.jpg.image.500.jpg, <%=path%>img/TRX_Glare.jpg.image.1000.jpg 2x" alt="Display A close-up of the LED headlamp on the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The already eye-catching appearance of this truck is further enhanced with available hood and box side graphics. There’s no mistaking TRX.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/Supercharged_TRX.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Supercharged_TRX.jpg.image.1440.jpg, <%=path%>img/Supercharged_TRX.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Supercharged_TRX.jpg.image.1000.jpg, <%=path%>img/Supercharged_TRX.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Supercharged_TRX.jpg.image.700.jpg, <%=path%>img/Supercharged_TRX.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Supercharged_TRX.jpg.image.1440.jpg" data-srcset="<%=path%>img/Supercharged_TRX.jpg.image.500.jpg, <%=path%>img/Supercharged_TRX.jpg.image.1000.jpg 2x" alt="Display A close-up of the TRX graphic on the hood of the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="Accentuate the bold appearance of TRX with an available powder-coated, matte black finish RamBar, available as a factory option or Mopar&lt;sub&gt;®&lt;/sub&gt; accessory.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_RamBar.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_RamBar.jpg.image.1440.jpg, <%=path%>img/TRX_RamBar.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_RamBar.jpg.image.1000.jpg, <%=path%>img/TRX_RamBar.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_RamBar.jpg.image.700.jpg, <%=path%>img/TRX_RamBar.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_RamBar.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_RamBar.jpg.image.500.jpg, <%=path%>img/TRX_RamBar.jpg.image.1000.jpg 2x" alt="Display A close-up of the RamBar mounted behind the cab of the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="Other trucks can’t touch TRX. With a Supercharged 6.2L HEMI&lt;sup&gt;®&lt;/sup&gt; V8 engine that produces 702 horsepower and 650 pound-feet of torque, the TRX reigns as the most powerful production pickup truck ever&lt;span class='alert-show' data-index='1' data-alert='Based on horsepower.'&gt;1&lt;/span&gt;&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#performance'&gt;Explore Performance&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Climbs-High.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Climbs-High.jpg.image.1440.jpg, <%=path%>img/TRX_Climbs-High.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Climbs-High.jpg.image.1000.jpg, <%=path%>img/TRX_Climbs-High.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Climbs-High.jpg.image.700.jpg, <%=path%>img/TRX_Climbs-High.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Climbs-High.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Climbs-High.jpg.image.500.jpg, <%=path%>img/TRX_Climbs-High.jpg.image.1000.jpg 2x" alt="Display An aerial view of a 2021 Ram 1500 TRX being driven on a butte with a dust cloud marking its path.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="TRX features an integrated air intake just above its bold R-A-M lettering, ensuring that the cleanest possible air enters the supercharger and keeps this beast charging forward.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Grille-Grit.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Grille-Grit.jpg.image.1440.jpg, <%=path%>img/TRX_Grille-Grit.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Grille-Grit.jpg.image.1000.jpg, <%=path%>img/TRX_Grille-Grit.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Grille-Grit.jpg.image.700.jpg, <%=path%>img/TRX_Grille-Grit.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Grille-Grit.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Grille-Grit.jpg.image.500.jpg, <%=path%>img/TRX_Grille-Grit.jpg.image.1000.jpg 2x" alt="Display A close-up of the RAM lettering on the grille of the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="When there is a cliff in sight, climb it. Engage Rock Mode to shift into an extra low gear ratio and utilize a 50/50 torque split. Plus, a Selec-Speed&lt;sup&gt;®&lt;/sup&gt; Control will hold a set velocity for a controlled descent.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#control'&gt;Explore Control&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Cliff-Speed.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Cliff-Speed.jpg.image.1440.jpg, <%=path%>img/TRX_Cliff-Speed.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Cliff-Speed.jpg.image.1000.jpg, <%=path%>img/TRX_Cliff-Speed.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Cliff-Speed.jpg.image.700.jpg, <%=path%>img/TRX_Cliff-Speed.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Cliff-Speed.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Cliff-Speed.jpg.image.500.jpg, <%=path%>img/TRX_Cliff-Speed.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX churning up dust from its wheels as it descends a steep rock formation.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The available TRX graphic on the rear box-side fender sits beside premium LED taillamps that light up not only the night, but also the name that has assumed the throne.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/Red-Hot-TRX-New.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Red-Hot-TRX-New.jpg.image.1440.jpg, <%=path%>img/Red-Hot-TRX-New.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Red-Hot-TRX-New.jpg.image.1000.jpg, <%=path%>img/Red-Hot-TRX-New.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Red-Hot-TRX-New.jpg.image.700.jpg, <%=path%>img/Red-Hot-TRX-New.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Red-Hot-TRX-New.jpg.image.1440.jpg" data-srcset="<%=path%>img/Red-Hot-TRX-New.jpg.image.500.jpg, <%=path%>img/Red-Hot-TRX-New.jpg.image.1000.jpg 2x" alt="Display The TRX graphic on the rear of the 2021 Ram 1500 TRX, almost obscured by the cloud of dust coming from its wheels.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="TRX is in it for the long haul. Conquer cliff faces and city streets with confidence thanks to an impressive 5-year/100,000-mile powertrain limited warranty&lt;span class='alert-show' data-index='2' data-alert='Visit Mopar.com for full details and a copy of the limited warranty.'&gt;2&lt;/span&gt;.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#performance'&gt;Explore Performance&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Trails.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Trails.jpg.image.1440.jpg, <%=path%>img/TRX_Trails.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Trails.jpg.image.1000.jpg, <%=path%>img/TRX_Trails.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Trails.jpg.image.700.jpg, <%=path%>img/TRX_Trails.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Trails.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Trails.jpg.image.500.jpg, <%=path%>img/TRX_Trails.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX being driven through a mesa with a cloud of dust marking its path.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="Set your out-of-office. With nine performance-tuned drive modes and Best-in-Class 702 horsepower&lt;span class='alert-show' data-index='3' data-alert='Class based on light-duty pickups.'&gt;3&lt;/span&gt;&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#performance'&gt;Explore Performance&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_on-the-Rocks.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_on-the-Rocks.jpg.image.1440.jpg, <%=path%>img/TRX_on-the-Rocks.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_on-the-Rocks.jpg.image.1000.jpg, <%=path%>img/TRX_on-the-Rocks.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_on-the-Rocks.jpg.image.700.jpg, <%=path%>img/TRX_on-the-Rocks.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_on-the-Rocks.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_on-the-Rocks.jpg.image.500.jpg, <%=path%>img/TRX_on-the-Rocks.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX standing proud atop a mesa.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="There’s no mistaking TRX. With an Adaptive Forward Lighting system featuring premium Bifunctional LED Projector Smartbeam Intelligent Headlamps, this beast’s glare can’t be missed.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/Light-Up-the_Night.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Light-Up-the_Night.jpg.image.1440.jpg, <%=path%>img/Light-Up-the_Night.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Light-Up-the_Night.jpg.image.1000.jpg, <%=path%>img/Light-Up-the_Night.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Light-Up-the_Night.jpg.image.700.jpg, <%=path%>img/Light-Up-the_Night.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Light-Up-the_Night.jpg.image.1440.jpg" data-srcset="<%=path%>img/Light-Up-the_Night.jpg.image.500.jpg, <%=path%>img/Light-Up-the_Night.jpg.image.1000.jpg 2x" alt="Display The headlamps of the 2021 Ram 1500 TRX lit as it is driven off-road at sunset.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="From rock rails to off-road lighting packages like the available RamBar, Mopar&lt;sub&gt;®&lt;/sub&gt; offers TRX-exclusive accessories for crushing every outdoor adventure.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/Off-Roads-Are_Lit.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Off-Roads-Are_Lit.jpg.image.1440.jpg, <%=path%>img/Off-Roads-Are_Lit.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Off-Roads-Are_Lit.jpg.image.1000.jpg, <%=path%>img/Off-Roads-Are_Lit.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Off-Roads-Are_Lit.jpg.image.700.jpg, <%=path%>img/Off-Roads-Are_Lit.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Off-Roads-Are_Lit.jpg.image.1440.jpg" data-srcset="<%=path%>img/Off-Roads-Are_Lit.jpg.image.500.jpg, <%=path%>img/Off-Roads-Are_Lit.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX silhouetted against a setting sun with its headlamps and RamBar lit.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="With an engine that boasts Best-in-Class horsepower and torque&lt;span class='alert-show' data-index='1' data-alert='Based on light-duty pickups.'&gt;1&lt;/span&gt;, plus nine performance-tuned drive modes, the TRX has never met a challenge it couldn’t handle.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#performance'&gt;Explore Performance&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Stands-Out.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Stands-Out.jpg.image.1440.jpg, <%=path%>img/TRX_Stands-Out.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Stands-Out.jpg.image.1000.jpg, <%=path%>img/TRX_Stands-Out.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Stands-Out.jpg.image.700.jpg, <%=path%>img/TRX_Stands-Out.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Stands-Out.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Stands-Out.jpg.image.500.jpg, <%=path%>img/TRX_Stands-Out.jpg.image.1000.jpg 2x" alt="Display The projector headlamps of the 2021 Ram 1500 TRX cutting through a dust cloud.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="Buckle up for Baja Mode. When the driver engages this feature, shift times are reduced&lt;span class='alert-show' data-index='2' data-alert='When compared to Auto mode.'&gt;2&lt;/span&gt;, suspension is set on full damping and moderate oversteer is enabled to impart maximum fun. Translation: the dunes won’t know what hit ‘em.c&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#control'&gt;Explore Control&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Turns-It-Up.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Turns-It-Up.jpg.image.1440.jpg, <%=path%>img/TRX_Turns-It-Up.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Turns-It-Up.jpg.image.1000.jpg, <%=path%>img/TRX_Turns-It-Up.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Turns-It-Up.jpg.image.700.jpg, <%=path%>img/TRX_Turns-It-Up.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Turns-It-Up.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Turns-It-Up.jpg.image.500.jpg, <%=path%>img/TRX_Turns-It-Up.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX being driven at sunset, its headlamps illuminating the dust cloud around it.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="Meet the most muscular truck to ever leave our factory. This beast boasts eight extra inches of overall width&lt;span class='alert-show' data-index='3' data-alert='When compared to the 2021 Ram 1500.'&gt;3&lt;/span&gt;, massive 35-inch tires and a menacing stance. Not pictured: the growl that backs up its bulk.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#exterior'&gt;Explore Exterior&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX_Stands-and-Delivers.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX_Stands-and-Delivers.jpg.image.1440.jpg, <%=path%>img/TRX_Stands-and-Delivers.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX_Stands-and-Delivers.jpg.image.1000.jpg, <%=path%>img/TRX_Stands-and-Delivers.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX_Stands-and-Delivers.jpg.image.700.jpg, <%=path%>img/TRX_Stands-and-Delivers.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX_Stands-and-Delivers.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX_Stands-and-Delivers.jpg.image.500.jpg, <%=path%>img/TRX_Stands-and-Delivers.jpg.image.1000.jpg 2x" alt="Display A head-on view of the 2021 Ram 1500 TRX with its headlamps and RamBar illuminated.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="Only TRX boasts Bilstein&lt;sup&gt;®&lt;/sup&gt; Black Hawk&lt;sup&gt;®&lt;/sup&gt; e2 shocks, which continuously adapt to varied terrain.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#control'&gt;Explore Control&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/TRX-Fast-Descent-New.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Fast-Descent-New.jpg.image.1440.jpg, <%=path%>img/TRX-Fast-Descent-New.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Fast-Descent-New.jpg.image.1000.jpg, <%=path%>img/TRX-Fast-Descent-New.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Fast-Descent-New.jpg.image.700.jpg, <%=path%>img/TRX-Fast-Descent-New.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Fast-Descent-New.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Fast-Descent-New.jpg.image.500.jpg, <%=path%>img/TRX-Fast-Descent-New.jpg.image.1000.jpg 2x" alt="Display  The 2021 Ram 1500 TRX descending a dune and churning up sand as it goes.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The TRX Launch Edition sold out in just 3 hours, cementing its status as the most exclusive version of the ultimate performance truck.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#launch-edition'&gt;Explore Sold-Out Launch Edition&lt;/a&gt;"
+					data-category="exterior"
+					href="<%= path %>img/Launch-Edition-Gallery.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Launch-Edition-Gallery.jpg.image.1440.jpg, <%=path%>img/Launch-Edition-Gallery.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Launch-Edition-Gallery.jpg.image.1000.jpg, <%=path%>img/Launch-Edition-Gallery.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Launch-Edition-Gallery.jpg.image.700.jpg, <%=path%>img/Launch-Edition-Gallery.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Launch-Edition-Gallery.jpg.image.1440.jpg" data-srcset="<%=path%>img/Launch-Edition-Gallery.jpg.image.500.jpg, <%=path%>img/Launch-Edition-Gallery.jpg.image.1000.jpg 2x" alt="Display The 2021 Ram 1500 TRX parked with a stormy sky behind it.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="Customizable graphics, gauges and interfaces highlight the multiple Off-Road Performance Pages while black and graphite leather seating surfaces with the available TRX Red Interior Accent and Carbon Fiber Packages (as shown) round out this first-class cabin experience.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#interior'&gt;Explore Interior&lt;/a&gt;"
+					data-category="interoir"
+					href="<%= path %>img/Connected-TRX.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Connected-TRX.jpg.image.1440.jpg, <%=path%>img/Connected-TRX.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Connected-TRX.jpg.image.1000.jpg, <%=path%>img/Connected-TRX.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Connected-TRX.jpg.image.700.jpg, <%=path%>img/Connected-TRX.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Connected-TRX.jpg.image.1440.jpg" data-srcset="<%=path%>img/Connected-TRX.jpg.image.500.jpg, <%=path%>img/Connected-TRX.jpg.image.1000.jpg 2x" alt="Display A interior shot from the perspective of the front passenger seat showing the 12-inch touchscreen in the 2021 Ram 1500 TRX with the Drive Mode page open.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="Command the cabin from performance-bolstered front bucket seats featuring a TRX-specific embroidered logo and accent stitching in red needlework.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#interior'&gt;Explore Interior&lt;/a&gt;"
+					data-category="interoir"
+					href="<%= path %>img/Drivers-Seat.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Drivers-Seat.jpg.image.1440.jpg, <%=path%>img/Drivers-Seat.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Drivers-Seat.jpg.image.1000.jpg, <%=path%>img/Drivers-Seat.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Drivers-Seat.jpg.image.700.jpg, <%=path%>img/Drivers-Seat.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Drivers-Seat.jpg.image.1440.jpg" data-srcset="<%=path%>img/Drivers-Seat.jpg.image.500.jpg, <%=path%>img/Drivers-Seat.jpg.image.1000.jpg 2x" alt="Display A close-up shot of the embroidered TRX logo on the front passenger seatback in the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The interior on the new Ram 1500 TRX carries premium materials and uncommon refinement throughout. Boasting a host of new standard and available technologies—like the available virtual and reconfigurable Head-Up Display (HUD)—this beast was designed to meet the needs and wants of off-road adventurers.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#interior'&gt;Explore Interior&lt;/a&gt;"
+					data-category="interoir"
+					href="<%= path %>img/Inside-TRX.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Inside-TRX.jpg.image.1440.jpg, <%=path%>img/Inside-TRX.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Inside-TRX.jpg.image.1000.jpg, <%=path%>img/Inside-TRX.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Inside-TRX.jpg.image.700.jpg, <%=path%>img/Inside-TRX.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Inside-TRX.jpg.image.1440.jpg" data-srcset="<%=path%>img/Inside-TRX.jpg.image.500.jpg, <%=path%>img/Inside-TRX.jpg.image.1000.jpg 2x" alt="Display Interior shot from the perspective of the driver seat in the 2021 Ram 1500 TRX showcasing premium interior materials and technology.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="An LED-illuminated TRX badge sits prominently above the 7-inch Driver Information Digital Cluster Display. Below, new performance screens are displayed in bold colorways for enhanced driver feedback on both drive modes and Performance Pages.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#interior'&gt;Explore Interior&lt;/a&gt;"
+					data-category="interoir"
+					href="<%= path %>img/TRX-Cluster.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Cluster.jpg.image.1440.jpg, <%=path%>img/TRX-Cluster.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Cluster.jpg.image.1000.jpg, <%=path%>img/TRX-Cluster.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Cluster.jpg.image.700.jpg, <%=path%>img/TRX-Cluster.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Cluster.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Cluster.jpg.image.500.jpg, <%=path%>img/TRX-Cluster.jpg.image.1000.jpg 2x" alt="Display A close-up shot of the 7-inch Driver Information Digital Cluster Display in the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="With the shifter repositioned to the center console, the Performance Control T-case switch bank now offers a host of commands from drive mode selector to Traction Control all at the driver’s fingertips.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#control'&gt;Explore Control&lt;/a&gt;"
+					data-category="interoir"
+					href="<%= path %>img/TRX-Switch-Bank.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Switch-Bank.jpg.image.1440.jpg, <%=path%>img/TRX-Switch-Bank.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Switch-Bank.jpg.image.1000.jpg, <%=path%>img/TRX-Switch-Bank.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Switch-Bank.jpg.image.700.jpg, <%=path%>img/TRX-Switch-Bank.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Switch-Bank.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Switch-Bank.jpg.image.500.jpg, <%=path%>img/TRX-Switch-Bank.jpg.image.1000.jpg 2x" alt="Display A close-up shot of the Performance Control T-case switch bank in the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The 2021 Ram 1500 TRX features an elevated interior with details like a console armrest-positioned specification plate that displays stats like horsepower, PSI and the Vehicle Identification Number (VIN) that is unique to each TRX.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#launch-edition'&gt;Explore Launch Edition&lt;/a&gt;"
+					data-category="interoir"
+					href="<%= path %>img/TRX-Interior-Details.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Interior-Details.jpg.image.1440.jpg, <%=path%>img/TRX-Interior-Details.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Interior-Details.jpg.image.1000.jpg, <%=path%>img/TRX-Interior-Details.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Interior-Details.jpg.image.700.jpg, <%=path%>img/TRX-Interior-Details.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Interior-Details.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Interior-Details.jpg.image.500.jpg, <%=path%>img/TRX-Interior-Details.jpg.image.1000.jpg 2x" alt="Display A close-up shot of the TRX specification plate on the front seat console armrest in the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The 2021 Ram 1500 TRX features an available premium Harman Kardon&lt;sup&gt;®&lt;/sup&gt; Audio System comprising 19 premium speakers, a 900-watt multi-channel amplifier with 360° surround sound capability and active noise cancellation.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#interior'&gt;Explore Interior&lt;/a&gt;"
+					data-category="interoir"
+					href="<%= path %>img/TRX-Harman-Kardon.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Harman-Kardon.jpg.image.1440.jpg, <%=path%>img/TRX-Harman-Kardon.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Harman-Kardon.jpg.image.1000.jpg, <%=path%>img/TRX-Harman-Kardon.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Harman-Kardon.jpg.image.700.jpg, <%=path%>img/TRX-Harman-Kardon.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Harman-Kardon.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Harman-Kardon.jpg.image.500.jpg, <%=path%>img/TRX-Harman-Kardon.jpg.image.1000.jpg 2x" alt="Display A close-up shot of a Harman Kardon speaker in the 2021 Ram 1500 TRX.">
+					</picture>
+				</a>
+				<a class="alfagallery__item"
+					data-fancybox="alfagallery"
+					data-caption="The 2021 Ram 1500 TRX was made for adventure at every turn. Map pockets behind the driver and front passenger seats feature a PALS flexible webbing storage system that was designed to carry MOLLE off-road and adventure gear so you’re never without the equipment you need.&lt;br&gt;&lt;a class='gcss-button-tertiary' href='/trx/#interior'&gt;Explore Interior&lt;/a&gt;"
+					data-category="interoir"
+					href="<%= path %>img/TRX-Seat-Storage.jpg.image.1440.jpg">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Seat-Storage.jpg.image.1440.jpg, <%=path%>img/TTRX-Seat-Storage.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Seat-Storage.jpg.image.1000.jpg, <%=path%>img/TRX-Seat-Storage.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Seat-Storage.jpg.image.700.jpg, <%=path%>img/TRX-Seat-Storage.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Seat-Storage.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Seat-Storage.jpg.image.500.jpg, <%=path%>img/TRX-Seat-Storage.jpg.image.1000.jpg 2x" alt="Display A close-up shot of the PALS flexible webbing storage system on the driver seatback of the 2021 Ram 1500 TRX with a black bag, carabiner, flashlight and a metal TRX logoed water bottle attached.">
+					</picture>
+				</a>
+				<a class="alfagallery__item" 
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=mAic0BRNz-U">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/Sandman-Video-Thumbnail.jpg.image.1440.jpg, <%=path%>img/Sandman-Video-Thumbnail.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Sandman-Video-Thumbnail.jpg.image.1000.jpg, <%=path%>img/Sandman-Video-Thumbnail.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Sandman-Video-Thumbnail.jpg.image.700.jpg, <%=path%>img/Sandman-Video-Thumbnail.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Sandman-Video-Thumbnail.jpg.image.1440.jpg" data-srcset="<%=path%>img/Sandman-Video-Thumbnail.jpg.image.500.jpg, <%=path%>img/Sandman-Video-Thumbnail.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">The Power Has Shifted | The All-New 2021 Ram 1500 TRX</span>
+				</a>
+				<a class="alfagallery__item" 
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=4fsaH1lJ3FU">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.1440.jpg, <%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.1000.jpg, <%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.700.jpg, <%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.500.jpg, <%=path%>img/TRX-Behind-The-Badge-Powertrain.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">2021 Ram 1500 TRX | Powertrain | Behind the Badge</span>
+				</a>
+				<a class="alfagallery__item" 
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=9ccS2fXjzBk">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.1440.jpg, <%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.1000.jpg, <%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.700.jpg, <%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.500.jpg, <%=path%>img/TRX-Behind-The-Badge-Engineering.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">2021 Ram 1500 TRX | Engineering | Behind the Badge </span>
+				</a>
+				<a class="alfagallery__item" 
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=d53xCnAhYUY">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.1440.jpg, <%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.1000.jpg, <%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.700.jpg, <%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.500.jpg, <%=path%>img/TRX-Behind-The-Badge-Exterior.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">2021 Ram 1500 TRX | Exterior Design | Behind the Badge</span>
+				</a>
+				<a class="alfagallery__item" 
+					data-fancybox="alfagallery"
+					data-category="video"
+					href="https://www.youtube.com/watch?v=EPPFy78bXJ4">
+					<picture class="alfagallery__img">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.1440.jpg, <%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.1000.jpg, <%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.700.jpg, <%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.500.jpg, <%=path%>img/TRX-Behind-The-Badge-Interior.jpg.image.1000.jpg 2x" alt="">
+					</picture>
+					<span class="alfagallery__icon-play">
+						<span class="_icon _icon-play"></span>
+					</span>
+					<span class="alfagallery__label">2021 Ram 1500 TRX | Interior Design | Behind the Badge</span>
+				</a>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Скрипты для страницы -->
+	<script src="<%=path%>js/app.min.js"></script>
+</body>
+</html>

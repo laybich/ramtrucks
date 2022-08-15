@@ -1,0 +1,139 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!doctype html>
+<!-- Оболочка документа, указываем яык содержимого -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+@@include('../../_header.html', {"title":"Спецификации"})
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка для демонстрации -->
+	<main class="main">
+
+		<!-- Контент -->
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Навигация по модели -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="secondary-navigation__modelname secondary-navigation__modelname_mobile">
+			<!-- мобильная надпись(скрыто на десктопах) -->
+			<h1 class="secondary-navigation__title">2021 RAM 1500</h1>
+		</div>
+		<div class="secondary-navigation" id="secondary-nav">
+			<div class="secondary-navigation__modelname">
+				<!-- надпись модели -->
+				<h1 class="secondary-navigation__title">2021 RAM 1500</h1>
+			</div>
+			<nav class="secondary-navigation__menu nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/">
+							Обзор
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/gallery/">
+							Галерея
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/capability/">
+							Возможности
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/exterior/">
+							Экстерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/interior/">
+							Интерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/safety-security/">
+							Безопасность и защита
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/multifunction-tailgate/">
+							Многофункциональный откидной борт
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/compare/">
+							Сравнить
+						</a>
+					</li>
+					<li class="nav__item nav__item_active">
+						<a class="nav__link" href="/ram-1500/specs/">
+							Спецификации
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-1500/commercial/">
+							RAM для бизнеса
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Заголовок страницы -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="qvmedia-block">
+			<!-- надзаголовок секции -->
+			<div class="qvmedia-block__suptitle" style="padding:1.85714rem;font-family:'Geogrotesque Cyr',sans-serif;">
+				2021 RAM 1500
+			</div>
+		</section>
+
+
+		<div class="specs specs_page gcss-theme-light">
+			<ul class="cars-carousel">
+				<div class="cars-carousel__wrapper owl-carousel center">
+					<li class="cars-carousel__item active" id="1">
+						<img class="cars-carousel__img" src="<%=path%>img/iris.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="7">
+						<img class="cars-carousel__img" src="<%=path%>img/iris1.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman HFE</h4>
+					</li>
+					<li class="cars-carousel__item" id="9">
+						<img class="cars-carousel__img" src="<%=path%>img/iris2.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Big Horn<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="15">
+						<img class="cars-carousel__img" src="<%=path%>img/iris3.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Laramie<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="21">
+						<img class="cars-carousel__img" src="<%=path%>img/iris4.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Rebel<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="23">
+						<img class="cars-carousel__img" src="<%=path%>img/iris5.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Limited Longhorn™</h4>
+					</li>
+					<li class="cars-carousel__item" id="27">
+						<img class="cars-carousel__img" src="<%=path%>img/iris6.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Limited</h4>
+					</li>
+					<li class="cars-carousel__item" id="31">
+						<img class="cars-carousel__img" src="<%=path%>img/iris7.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">TRX</h4>
+					</li>
+				</div>
+			</ul>
+			<div class="specs__info row center"></div>
+			<ul class="accordeon col-xs-11 col-md-10 not-float center" id="accordeon"></ul>
+		</div>
+
+
+    </main>
+
+	<!-- Скрипты для страницы -->
+	<script src="<%=path%>js/app.min.js"></script>
+</body>
+</html>

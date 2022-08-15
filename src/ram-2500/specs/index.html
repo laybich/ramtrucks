@@ -1,0 +1,131 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!doctype html>
+<!-- Оболочка документа, указываем яык содержимого -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+@@include('../../_header.html', {"title":"Спецификации"})
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка для демонстрации -->
+	<main class="main">
+
+		<!-- Контент -->
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Навигация по модели -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="secondary-navigation__modelname secondary-navigation__modelname_mobile">
+			<!-- мобильная надпись(скрыто на десктопах) -->
+			<h1 class="secondary-navigation__title">2021 RAM 2500</h1>
+		</div>
+		<div class="secondary-navigation" id="secondary-nav">
+			<div class="secondary-navigation__modelname">
+				<!-- надпись модели -->
+				<h1 class="secondary-navigation__title">2021 RAM 2500</h1>
+			</div>
+			<nav class="secondary-navigation__menu nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/">
+							Обзор
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/#trims">
+							Выбери свой RAM
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/gallery/">
+							Галерея
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/capability/">
+							Возможности
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/exterior/">
+							Экстерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/interior/">
+							Интерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/safety-security/">
+							Безопасность и защита
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/compare/">
+							Сравнить
+						</a>
+					</li>
+					<li class="nav__item nav__item_active">
+						<a class="nav__link" href="/ram-2500/specs/">
+							Спецификации
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-2500/commercial/">
+							RAM для бизнеса
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Заголовок страницы -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="qvmedia-block">
+			<!-- надзаголовок секции -->
+			<div class="qvmedia-block__suptitle" style="padding:1.85714rem;font-family:'Geogrotesque Cyr',sans-serif;">
+				2021 RAM 2500
+			</div>
+		</section>
+
+
+		<div class="specs specs_page gcss-theme-light">
+			<ul class="cars-carousel">
+				<div class="cars-carousel__wrapper owl-carousel center">
+					<li class="cars-carousel__item" id="32">
+						<img class="cars-carousel__img" src="<%=path%>img/iris8.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="38">
+						<img class="cars-carousel__img" src="<%=path%>img/iris9.png" alt="BIG HORN®">
+						<h4 class="cars-carousel__title">Big Horn<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="45">
+						<img class="cars-carousel__img" src="<%=path%>img/iris10.png" alt="LARAMIE®">
+						<h4 class="cars-carousel__title">Laramie<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="50">
+						<img class="cars-carousel__img" src="<%=path%>img/iris11.png" alt="POWER WAGON">
+						<h4 class="cars-carousel__title">Power Wagon</h4>
+					</li>
+					<li class="cars-carousel__item" id="51">
+						<img class="cars-carousel__img" src="<%=path%>img/iris12.png" alt="LIMITED LONGHORN™">
+						<h4 class="cars-carousel__title">Limited Longhorn™</h4>
+					</li>
+					<li class="cars-carousel__item" id="56">
+						<img class="cars-carousel__img" src="<%=path%>img/iris13.png" alt="LIMITED">
+						<h4 class="cars-carousel__title">Limited</h4>
+					</li>
+				</div>
+			</ul>
+			<div class="specs__info row center"></div>
+			<ul class="accordeon col-xs-11 col-md-10 not-float center" id="accordeon"></ul>
+		</div>
+
+
+    </main>
+
+	<!-- Скрипты для страницы -->
+	<script src="<%=path%>js/app.min.js"></script>
+</body>
+</html>

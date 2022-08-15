@@ -1,0 +1,187 @@
+.capabilitygraph {
+	background-color: #fff;
+	padding: 2.85714rem 1.5625%;
+	// .capabilitygraph__title
+	&__title {
+		margin-top: 25px;
+		text-align: center;
+		margin-bottom: 2.85714rem;
+		font-size: 2.85714rem;
+	}
+	// .capabilitygraph__items
+	&__items {
+		margin: 0 auto;
+	}
+	// .capabilitygraph__item
+	&__item {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end;
+		margin-left: 0;
+		& + & {
+			margin-top: 2rem;
+		}
+	}
+	// .capabilitygraph__img-block
+	&__img-block {
+		max-width: 6.78571rem;
+		padding-left: 0.78125%;
+		padding-right: 0.78125%;
+	}
+	// .capabilitygraph__img
+	&__img {
+	}
+	// .capabilitygraph__data-block
+	&__data-block {
+		padding-left: 0.78125%;
+		padding-right: 0.78125%;
+	}
+	// .capabilitygraph__copy-block
+	&__copy-block {
+	}
+	// .capabilitygraph__item-title
+	&__item-title {
+		display: flex;
+		align-items: center;
+		margin-bottom: 0.35714rem;
+		font-size: 1.78571rem;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+	// .capabilitygraph__year
+	&__year {
+		margin: 0.71429rem 3.57143rem 0.71429rem 0;
+		font-size: 2.85714rem;
+		font-weight: 900;
+	}
+	// .capabilitygraph__widget-body
+	&__widget-body {
+		display: block;
+		font-weight: 400;
+		font-size: 1rem;
+	}
+	// .capabilitygraph__unit-block
+	&__unit-block {
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+	}
+	// .capabilitygraph__value
+	&__value {
+		line-height: 1;
+		text-transform: uppercase;
+		font-size: 3rem;
+		font-family: $fontFamily;
+		font-weight: 100;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	// .capabilitygraph__units
+	&__units {
+		top: -1.28571rem;
+		font-size: 1rem;
+		line-height: 1.42857;
+		font-weight: 100;
+	}
+}
+
+.proggress-bar {
+	padding-top: 1.42857rem;
+	padding-bottom: 0.71429rem;
+	padding-left: 0.78125%;
+	padding-right: 0.78125%;
+	width: 100%;
+	// .proggress-bar__outer
+	&__outer {
+		background-color: #d1d1d1;
+		transition: opacity 2s ease-out;
+		height: 0.71429rem;
+	}
+	// .proggress-bar__inner
+	&__inner {
+		background-color: #880d00;
+		border-top: 0.71429rem solid #880d00;
+		border-right: 0.71429rem solid #d1d1d1;
+		width: 100%;
+	}
+}
+
+.capabilitygraph {
+	// ================================ >= 1400px ================================
+	@media (max-width: $xxl+px) {
+	}
+	// ================================ >= 1200px ================================
+	@media (max-width: $xl+px) {
+	}
+	// ================================ >= 992px ================================
+	@media (max-width: $lg+px) {
+		&__title {
+			font-size: 2.5rem;
+		}
+		&__data-block {
+			position: static;
+		}
+		&__value {
+			font-size: 2.5rem;
+		}
+	}
+	// ================================ >= 768px ================================
+	@media (max-width: $md - 1 + px) {
+		&__item {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+		&__item-title {
+			flex-direction: column;
+			grid-gap: 20px;
+			margin-bottom: 20px;
+		}
+		&__year {
+			margin: 0 !important;
+		}
+		&__unit-block {
+			position: static;
+			width: 100%;
+			.capabilitygraph__value {
+				position: static;
+			}
+		}
+		&__units {
+			top: auto;
+		}
+		&__img-block {
+			margin-left: -1rem;
+		}
+	}
+	// ================================ >= 576px ================================
+	@media (max-width: $sm+px) {
+		&__title {
+			font-size: 2rem;
+		}
+		&__item {
+			margin-top: 50px;
+		}
+		&__img-block {
+			position: absolute;
+			left: 0;
+			right: 0;
+			max-width: 100%;
+			width: 100%;
+			top: -38px;
+		}
+		&__img {
+			max-width: 6.78571rem;
+			margin: auto;
+			transform: translateX(-60%);
+		}
+		&__item-title {
+			font-size: 1.38571rem;
+			line-height: 1.3;
+		}
+	}
+}

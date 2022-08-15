@@ -1,0 +1,16 @@
+.alert-show {
+	background-color: #d1d1d1;
+	color: $mainColor;
+	height: 0.85714rem;
+	width: 0.85714rem;
+	cursor: pointer;
+	border-radius: 50%;
+	font-size: 0.57143rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	&_black {
+		background-color: $mainColor;
+		color: #d1d1d1;
+	}
+}

@@ -1,0 +1,85 @@
+//<МИКСИНЫ>==============================================================================
+@import 'mixins';
+//</МИКСИНЫ>=============================================================================
+
+//<ШРИФТЫ>===============================================================================
+
+//<Подключаем шрифты>====================================================================
+// &display=swap&subset=cyrillic-ext
+// @import 'fonts';
+//</Подключаем шрифты>===================================================================
+
+//<Иконочные шрифты>=====================================================================
+@import 'icons';
+//</Иконочные шрифты>====================================================================
+
+//<Шрифт по умолчанию>===================================================================
+$fontFamily: 'Roboto', Helvetica, Arial, sans-serif;
+$headerFont: 'Geogrotesque Cyr', sans-serif;
+$fontSize: 16px;
+$lineHeight: 24px;
+//</Шрифт по умолчанию>==================================================================
+
+//</ШРИФТЫ>==============================================================================
+
+//<ПЕРЕМЕННЫЕ>===========================================================================
+$mainColor: #000;
+$primaryColor: #880d00;
+$secondaryColor: #d54400;
+
+$sm: 576;
+$md: 768;
+$lg: 992;
+$xl: 1200;
+$xxl: 1400;
+
+//</ПЕРЕМЕННЫЕ>==========================================================================
+
+//<БИБЛИОТЕКИ>===========================================================================
+// @import 'libraries/fancybox';
+@import 'libraries/jquery.fancybox.scss';
+@import 'libraries/owl.carousel';
+@import 'libraries/pannellum';
+@import 'libraries/foundation.scss';
+.main {
+	@import 'libraries/twentytwenty.scss';
+}
+//</БИБЛИОТЕКИ>==========================================================================
+
+//<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===========================================================
+.main {
+	@import 'base';
+	@import 'global';
+	@import 'runtime';
+}
+//</ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>==========================================================
+
+.main {
+	@import 'components/secondary-navigation.scss';
+	@import 'components/hero';
+	@import 'components/blurb-rail';
+	@import 'components/lightbox-gallery';
+	@import 'components/copy-box';
+	@import 'components/qvmedia-block';
+	@import 'components/feature-highlight';
+	@import 'components/feature-carousel';
+	@import 'components/feature-panel';
+	@import 'components/sticky-media';
+	@import 'components/img-desc';
+	@import 'components/next-prev.scss';
+	@import 'components/capabilitygraph';
+	@import 'components/experience-fragment';
+	@import 'components/tiles';
+	@import 'components/compare';
+	@import 'components/specs';
+}
+
+*:not(.header-wrapper, .footer-black .container-fluid) .container-fluid {
+	max-width: 100% !important;
+}
+.row {
+	max-width: none;
+}
+body {
+	overflow-x: hidden;
+}

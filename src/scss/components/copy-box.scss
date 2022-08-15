@@ -1,0 +1,89 @@
+.copy-box {
+	text-align: center;
+	padding: 2.14286rem 1.42857rem;
+	position: relative;
+	// .copy-box__title
+	&__title {
+		margin: 0.71429rem;
+	}
+	// .copy-box__text
+	&__text {
+		// color: #bfbfbf;
+		margin: 0.71429rem auto 0;
+		margin-bottom: 2.14286rem;
+	}
+	// .copy-box__link
+	&__link {
+		&._icon-play {
+			padding-left: 3.5rem;
+		}
+	}
+}
+
+.copy-box_second {
+	padding: 2.14286rem 1.42857rem;
+	.copy-box__title {
+		font-size: 2.85714rem;
+	}
+	.copy-box__text {
+		color: #636363;
+	}
+}
+
+.copy-box_seventh {
+	padding: 2.14286rem 1.42857rem;
+	.copy-box__title {
+		font-size: 2.85714rem;
+		margin: 0.71429rem;
+		margin-bottom: 2.14286rem + 0.71429rem;
+	}
+	.copy-box__text {
+		color: #636363;
+	}
+}
+
+.copy-box_eight {
+	.copy-box__link {
+		margin-top: 1.14286rem + 0.53571rem;
+		padding-left: 3.5rem;
+	}
+}
+
+.copy-box {
+	// ================================ >= 1400px ================================
+	@media (max-width: $xxl+px) {
+	}
+	// ================================ >= 1200px ================================
+	@media (max-width: $xl+px) {
+	}
+	// ================================ >= 992px ================================
+	@media (max-width: $lg+px) {
+		&__title {
+			font-size: 2.5rem;
+			line-height: 1;
+		}
+	}
+	// ================================ >= 768px ================================
+	@media (max-width: $md+px) {
+		&_seventh {
+			.copy-box__title {
+				font-size: 1.78571rem;
+			}
+		}
+	}
+	// ================================ >= 576px ================================
+	@media (max-width: $sm+px) {
+		&__title {
+			font-size: 1.78571rem;
+			line-height: 1;
+		}
+		&__text {
+			padding: 0;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+	// ================================ <= 576px ================================
+	@media (min-width: $sm+px) {
+	}
+}

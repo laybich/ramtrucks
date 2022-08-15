@@ -1,0 +1,140 @@
+.feature-highlight {
+	padding: 4.28571rem 0 7.14286rem;
+	// .feature-highlight__keystat-grid
+	&__keystat-grid {
+		padding: 1.42857rem 0;
+	}
+	// .feature-highlight__keystat-item
+	&__keystat-item {
+		line-height: 1;
+		text-transform: uppercase;
+		text-align: center;
+		&:not(:first-child) {
+			border-left: 2px solid $secondaryColor;
+		}
+	}
+	// .feature-highlight__keystat-number
+	&__keystat-number {
+		font-family: $headerFont;
+		display: block;
+		font-size: 6rem;
+	}
+	// .feature-highlight__keystat-suffix
+	&__keystat-suffix {
+		font-size: 0.75em;
+	}
+	// .feature-highlight__keystat-label
+	&__keystat-label {
+		font-size: 1.14286rem;
+	}
+	// .feature-highlight__grid
+	&__grid {
+		margin-top: 5.71429rem;
+	}
+	// .feature-highlight__description
+	&__description {
+		padding-left: 6%;
+		padding-right: 0.78125%;
+	}
+	// .feature-highlight__title
+	&__title {
+		font-size: 3.57143rem;
+		margin-bottom: 1.42857rem;
+		hyphens: manual;
+	}
+	// .feature-highlight__text
+	&__text {
+	}
+	// .feature-highlight__link
+	&__link {
+		margin: 7.85714rem 0 1.42857rem+0.71429rem;
+	}
+	// .feature-highlight__link-img
+	&__link-img {
+		margin-bottom: 1.78571rem;
+		height: 168px;
+		object-fit: contain;
+	}
+	// .feature-highlight__link-label
+	&__link-label {
+		line-height: 3.42857rem;
+		font-family: Rajdhani, Roboto, sans-serif;
+		line-height: 3.42857rem;
+		padding-top: 0.71429rem;
+		text-transform: uppercase;
+		font-size: 2.14286rem;
+		font-weight: 400;
+	}
+	// .feature-highlight__hemi
+	&__hemi {
+		padding: 0;
+	}
+}
+
+.feature-highlight {
+	// ================================ >= 1400px ================================
+	@media (max-width: $xxl+px) {
+	}
+	// ================================ >= 1200px ================================
+	@media (max-width: $xl+px) {
+	}
+	// ================================ >= 992px ================================
+	@media (max-width: $lg - 1 +px) {
+		text-align: center;
+		&__keystat-item {
+			margin: 1rem -0.35714rem;
+			border-left: none !important;
+		}
+		&__keystat-number {
+			font-size: 4rem;
+		}
+		&__description {
+			padding: 2.85714rem 8rem;
+		}
+		&__link {
+			margin: 3.545714rem 0 2.14286rem;
+		}
+		&__link-img {
+			margin: 0 auto;
+			height: 8.5714rem;
+		}
+	}
+	// ================================ >= 768px ================================
+	@media (max-width: $md+px) {
+	}
+	// ================================ >= 576px ================================
+	@media (max-width: $sm+px) {
+		padding: 4.28571rem 0 2.14286rem;
+		// .feature-highlight__keystat-number
+		&__keystat-number {
+			font-size: 2.5rem;
+			margin-bottom: 1.22857rem;
+		}
+		// .feature-highlight__keystat-label
+		&__keystat-label {
+			font-size: 0.94286rem;
+		}
+		&__grid {
+			margin-top: 0;
+		}
+		&__description {
+			padding: 1.42857rem 2.85714rem 2.85714rem;
+		}
+		&__title {
+			font-size: 2.5rem;
+		}
+		font-size: 1.21429rem;
+		&_second {
+			.feature-highlight__keystat-number {
+				font-size: 4.07143rem;
+			}
+			.feature-highlight__keystat-label {
+				font-size: 1rem;
+				font-weight: 400;
+			}
+		}
+	}
+	// ================================ <= 576px ================================
+	@media (min-width: $sm+px) {
+	}
+}

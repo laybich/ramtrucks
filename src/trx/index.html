@@ -1,0 +1,938 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!doctype html>
+<!-- Оболочка документа, указываем яык содержимого -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+@@include('../_header.html', {"title":"TRX"})
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка для демонстрации -->
+	<main class="main">
+
+		<!-- Контент -->
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Навигация по странице -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="secondary-navigation__modelname secondary-navigation__modelname_mobile">
+			<h1 class="secondary-navigation__title">2021 Ram 1500 TRX | Экстремальный внедорожный пикап</h1>
+		</div>
+		<div class="secondary-navigation" id="secondary-nav">
+			<div class="secondary-navigation__modelname">
+				<h1 class="secondary-navigation__title">2021 RAM 1500 TRX</h1>
+			</div>
+			<nav class="secondary-navigation__menu nav">
+				<ul class="nav__list">
+					<li class="nav__item nav__item_active">
+						<a class="nav__link" href="#overview">
+							Обзор
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#gallery">
+							Галерея
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#performance">
+							Производительность
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#control">
+							Контроль
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#exterior">
+							Экстерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#interior">
+							Интерьер
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- Первый экран - TRX -->
+		<section class="hero gcss-theme-dark" id="overview">
+			<!-- фоновая картинка -->
+			<picture class="hero__bg">
+				<source srcset="<%=path%>img/TRX-VLP-Hero-Desktop-v2.jpg" media="(min-width: 992px)">
+				<source srcset="<%=path%>img/TRX-VLP-Hero-Tablet.jpg" media="(min-width: 768px)">
+				<source srcset="<%=path%>img/TRX-VLP-Hero-Mobile-v2.jpg" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-VLP-Hero-Desktop-v2.jpg" data-srcset="<%=path%>img/TRX-VLP-Hero-Mobile-v2.jpg" draggable="false" alt="A silver 2021 Ram 1500 TRX with beadlock capable aluminum wheels and a Rambar by Mopar parked on blacktop at sunset, with the right rear corner of a red 2021 Ram 1500 TRX in the foreground.">
+			</picture>
+			<!-- текстовый контент -->
+			<div class="hero__content bottom center">
+				<img class="hero__logo" src="<%=path%>img/logo.svg" alt="TRX logo">
+
+				<h2 class="hero__title">
+					Будь лидером
+				</h2>
+				<p class="hero__text">
+					Куда бы не следовал RAM TRX 2021 года, все следуют за ним. Будьте впереди всех. Проложите свой собственный путь. За рулём TRX с его 6,2-литровым двигателем HEMI<sup>®</sup> V8 с наддувом, мощностью 702 л.с. вы всегда будете лидером.
+				</p>
+				<a class="hero__button _icon-play btn btn-secondary gcss-button" data-fancybox href="https://www.youtube.com/embed/qnX_vAXfcB8?autoplay=1&showinfo=0&rel=0&wmode=opaque&controls=1&start=0&enablejsapi=1&origin=https%3A%2F%2Fwww.ramtrucks.com&widgetid=3">
+					Запустить видео
+				</a>
+			</div>
+		</section>
+
+
+		<!-- Награды -->
+		<section class="blurb-rail dots" id="awards">
+			<div class="container">
+				<!-- заголовок секции -->
+				<h2 class="blurb-rail__title">
+					Награды
+				</h2>
+				<!-- список наград -->
+				<ul class="blurb-rail__list row">
+					<!-- Motortrand -->
+					<li class="blurb-rail__item col-sm-12 col-md-3 d-block">
+						<img class="blurb-rail__item-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Awards-MT.jpg" alt="2021 MotorTrend Truck of the Year">
+						<h3 class="blurb-rail__item-title">
+							Пикап года 2021 по версии MotorTrend<sup>®</sup>
+						</h3>
+						<p class="blurb-rail__item-description">
+							Ram Trucks завоевал третью подряд награду Motor Trend Truck of the Year<sup>®</sup> после запуска модели TRX.
+						</p>
+						<a class="blurb-rail__item-link gcss-button-tertiary" href="https://www.ramtrucks.com/motortrend.html">
+							Узнать больше
+						</a>
+					</li>
+					<!-- пикап Техаса -->
+					<li class="blurb-rail__item col-sm-12 col-md-3">
+						<img class="blurb-rail__item-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Awards-Texas-1.jpg" alt="The Texas Auto Writers Association logo.">
+						<h3 class="blurb-rail__item-title">
+							Лучший пикап Техаса
+						</h3>
+						<p class="blurb-rail__item-description">
+							По итогам голосования Техасской ассоциации автомобильных изданий
+						</p>
+					</li>
+					<!-- полноразмерный пикап Техаса -->
+					<li class="blurb-rail__item col-sm-12 col-md-3">
+						<img class="blurb-rail__item-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Awards-Texas-2.jpg" alt="The Texas Auto Writers Association logo.">
+						<h3 class="blurb-rail__item-title">
+							Лучший полноразмерный пикап Техаса
+						</h3>
+						<p class="blurb-rail__item-description">
+							По итогам голосования Техасской ассоциации автомобильных изданий
+						</p>
+					</li>
+					<!-- внедорожный пикап Техаса -->
+					<li class="blurb-rail__item col-sm-12 col-md-3">
+						<img class="blurb-rail__item-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Awards-Texas-3.jpg" alt="The Texas Auto Writers Association logo.">
+						<h3 class="blurb-rail__item-title">
+							Лучший внедорожный пикап Техаса
+						</h3>
+						<p class="blurb-rail__item-description">
+							По итогам голосования Техасской ассоциации автомобильных изданий
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Галерея TRX -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="alfagallery" id="gallery">
+			<!-- заголовок страницы -->
+			<h2 class="alfagallery__title">
+				Узнать больше
+			</h2>
+			<!-- сетка изображений -->
+			<div class="alfagallery__grid">
+				<!-- первая колонка -->
+				<div class="alfagallery__column alfagallery__column_first">
+					<a class="alfagallery__item" data-fancybox="alfagallery" href="<%=path%>img/Gallery-Preview-1-Expanded.jpg">
+						<img class="alfagallery__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Gallery-Preview-1-Thumbnail.jpg" alt="The 2021 Ram 1500 TRX parked against a mountain backdrop.">
+					</a>
+					<div class="alfagallery__column-mini">
+						<a class="alfagallery__item" data-fancybox="alfagallery" href="<%=path%>img/Gallery-Preview-2-Expanded.jpg">
+							<img class="alfagallery__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Gallery-Preview-2-Thumbnail.jpg" alt="The 2021 Ram 1500 TRX churning up a cloud of sand from its wheels.">
+						</a>
+						<a class="alfagallery__item alfagallery__item_third" data-fancybox="alfagallery" href="<%=path%>img/Gallery-Preview-3-Expanded-Desktop.jpg">
+							<img class="alfagallery__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Gallery-Preview-3-Thumbnail.jpg" alt="A close-up shot of the embroidered TRX logo on the front passenger seatback in the 2021 Ram 1500 TRX.">
+						</a>
+					</div>
+				</div>
+				<!-- вторая колонка -->
+				<div class="alfagallery__column alfagallery__column_second">
+					<a class="alfagallery__item" data-fancybox="alfagallery" href="<%=path%>img/Gallery-Preview-4-Expanded.jpg">
+						<img class="alfagallery__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Gallery-Preview-4-Thumbnail.jpg" alt="An aerial view of a 2021 Ram 1500 TRX being driven on a sand dune with a dust cloud marking its path.">
+					</a>
+				</div>
+				<!-- третяя колонка -->
+				<div class="alfagallery__column alfagallery__column_third">
+					<a class="alfagallery__item" data-fancybox="alfagallery" href="<%=path%>img/Gallery-Preview-5-Expanded.jpg">
+						<img class="alfagallery__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Gallery-Preview-5-Thumbnail.jpg" alt="The headlamps of the 2021 Ram 1500 TRX lit as it is driven off-road at sunset.">
+					</a>
+					<a class="alfagallery__item alfagallery__item_last" data-fancybox="alfagallery" href="<%=path%>img/Gallery-Preview-6-Expanded.jpg">
+						<img class="alfagallery__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Gallery-Preview-6-Thumbnail.jpg" alt="The TRX graphic on the rear of the 2021 Ram 1500 TRX, almost obscured by the cloud of dust coming from its wheels.">
+					</a>
+				</div>
+			</div>
+			<!-- ссылка на всю галерею -->
+			<a class="alfagallery__link btn" href="/trx/gallery/">
+				ГАЛЕРЕЯ
+			</a>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Сердце легенды -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="copy-box gcss-theme-dark" id="performance">
+			<!-- заголовок секции -->
+			<h2 class="copy-box__title">
+				Сердце легенды
+			</h2>
+			<!-- абзац с текстом -->
+			<p class="copy-box__text col-xs-10 col-sm-10 col-md-6 col-lg-6 not-float">
+				Да, TRX - самый мощный из когда-либо построенных серийных пикапов, допущенный для эксплуатации на дорогах общего пользования. Но почему вы водите его только по дорогам?
+			</p>
+			<!-- запустить видео в этой вкладке -->
+			<a class="copy-box__link _icon-play btn btn-secondary" data-fancybox="" href="https://www.youtube.com/watch?v=4fsaH1lJ3FU">
+				Запустить видео
+			</a>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Блок-изображение -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="qvmedia-block">
+			<picture class="qvmedia-block__bg">
+				<source srcset="<%=path%>img/Hero-Desktop.jpg" media="(min-width: 992px)">
+				<source srcset="<%=path%>img/Hero-Tablet.jpg" media="(min-width: 768px)">
+				<source srcset="<%=path%>img/Hero-Mobile.jpg" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Hero-Desktop.jpg" data-srcset="<%=path%>img/Hero-Mobile.jpg" draggable="false" alt="The red 2021 Ram 1500 TRX churning up clouds of sand from its wheels as it is driven over a dune.">
+			</picture>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Статы TRX мотора -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="feature-highlight gcss-theme-light">
+			<!-- счетчик TRX статов -->
+			<div class="feature-highlight__keystat-grid row">
+				<!-- лошадиные силы -->
+				<div class="feature-highlight__keystat-item col-xs-6 col-md-4">
+					<!-- в data-end и внутри тега указываем конечное значение -->
+					<span class="feature-highlight__keystat-number counter" data-end="702">
+						702
+					</span>
+					<!-- а это надпись -->
+					<span class="feature-highlight__keystat-label">
+						Лошадиных сил
+					</span>
+				</div>
+				<!-- крутящий момент -->
+				<div class="feature-highlight__keystat-item col-xs-6 col-md-4">
+					<!-- в data-end и внутри тега указываем конечное значение -->
+					<span class="feature-highlight__keystat-number counter" data-end="650">
+						880
+					</span>
+					<!-- а это надпись -->
+					<span class="feature-highlight__keystat-label">
+						Нм крутящего момента
+					</span>
+				</div>
+				<!-- разгон -->
+				<div class="feature-highlight__keystat-item col-xs-12 col-md-4">
+					<!-- в data-suffix-value указываем строку, которая идет после значения -->
+					<span class="feature-highlight__keystat-number counter" data-end="4.5" data-suffix-value=" СЕК">
+						4.5
+					</span>
+					<!-- а это надпись -->
+					<span class="feature-highlight__keystat-label">
+						разгон 0-100 км/ч
+					</span>
+				</div>
+			</div>
+			<!-- описание мотора -->
+			<div class="feature-highlight__grid row">
+				<div class="feature-highlight__description col-xs-12 col-md-4">
+					<h2 class="feature-highlight__title">
+						6,2 л HEMI<sup>®</sup> V8 с наддувом
+					</h2>
+					<p class="feature-highlight__text">
+						Когда ваш двигатель может похвастаться лучшими в своём классе мощностью и крутящим моментом, вам не потребуется никаких усилий для наслаждения настоящим звуком V8.
+					</p>
+					<!-- услышать звук мотора -->
+					<a class="feature-highlight__link" href="#" id="turn-audio">
+						<img class="feature-highlight__link-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Performance-Engine-Start-1.png" alt="">
+						<p class="feature-highlight__link-label">
+							Завести двигатель
+						</p>
+					</a>
+				</div>
+				<div class="feature-highlight__hemi col-xs-12 col-md-8">
+					<!-- изображение мотора -->
+					<img class="feature-highlight__hemi-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/6.2L-HEMI-Desktop.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Особенности TRX мотора -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="blurb-rail">
+			<div class="container">
+				<ul class="blurb-rail__list row">
+					<li class="blurb-rail__item col-xs-11 col-md-3">
+						<h3 class="blurb-rail__item-title">
+							Мощный нагнетатель
+						</h3>
+						<p class="blurb-rail__item-description">
+							Двухшнековый нагнетатель обеспечивает моментальный отклик и создаёт огромный крутящий момент двигателю. Максимальная скорость шнеков 14.600 об/мин и они могут создавать избыточное давление в 0,75 Бар.
+						</p>
+					</li>
+					<li class="blurb-rail__item col-xs-11 col-md-3">
+						<h3 class="blurb-rail__item-title">
+							Система холодного впуска
+						</h3>
+						<p class="blurb-rail__item-description">
+							Высокоэффективная система впуска воздуха фильтрует в четыре раза больше грязи и пыли, чем Ford Raptor, при этом пропуская до 32,9 литров воздуха в минуту.
+						</p>
+					</li>
+					<li class="blurb-rail__item col-xs-11 col-md-3">
+						<h3 class="blurb-rail__item-title">
+							Легендарный блок двигателя
+						</h3>
+						<p class="blurb-rail__item-description">
+							Прочный чугунный блок удерживает коленчатый вал из кованой стали с подшипниками с индукционной закалкой, спроектированный таким образом, чтобы выдерживать давление во время вспышки в камере сгорания до 110 Бар, что эквивалентно силе в 89.000 Ньютонов.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Информация на мониторе -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="feature-carousel gcss-theme-dark" id="performance1">
+			<!-- заголовок секции -->
+			<h2 class="feature-carousel__title">
+				Техническая информация на мониторе
+			</h2>
+			<!-- абзац-подзаголовок -->
+			<p class="feature-carousel__subtitle col-lg-6 not-float">
+				В меню мультимедийного центра Uconnect, оснащенного 12 дюймовым дисплеем, водителю доступен набор настраиваемых страниц информирующих его о производительности автомобиля и двигателя в режиме реального времени, особенностях режима работы трансмиссии или активации дополнительных функций автомобиля.
+			</p>
+			<!-- табы -->
+			<ul class="feature-carousel__navlinks tabnav gcss-theme-light">
+				<li class="tabnav__item active">
+					<a class="tabnav__link" data-target="launch" href="#">
+						Launch Control
+					</a>
+				</li>
+				<li class="tabnav__item">
+					<a class="tabnav__link" data-target="dashboard" href="#">
+						Основные показатели
+					</a>
+				</li>
+				<li class="tabnav__item">
+					<a class="tabnav__link" data-target="engine" href="#">
+						Мощность / Двигатель
+					</a>
+				</li>
+				<li class="tabnav__item ">
+					<a class="tabnav__link" data-target="dynamics" href="#">
+						Состояние автомобиля
+					</a>
+				</li>
+			</ul>
+			<div class="feature-carousel__items">
+				<!-- контроль запуска -->
+				<div class="feature-carousel__item" id="launch">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/Launch-Control-Desktop.jpg.image.1440.jpg, <%=path%>img/Launch-Control-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Launch-Control-Mobile.jpg.image.1000.jpg, <%=path%>img/Launch-Control-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Launch-Control-Mobile.jpg.image.700.jpg, <%=path%>img/Launch-Control-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Launch-Control-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/Launch-Control-Mobile.jpg.image.500.jpg, <%=path%>img/Launch-Control-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="A close-up of the Launch Control screen in the 2021 Ram 1500 TRX, indicating that the vehicle will launch at 4500 RPM.">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content">
+						<h3 class="feature-carousel__itemtitle">
+							LAUNCH CONTROL
+						</h3>
+						<p class="feature-carousel__text">
+							TRX - первый грузовик Ram, оснащенный системой Launch Control и Launch Assist, которая регулирует обороты двигателя и отслеживает сигналы от датчиков АБС о пробуксовке колес, чтобы всегда обеспечивать максимально быстрое ускорение и лучшее сцепление с поверхностью.
+						</p>
+					</div>
+				</div>
+				<!-- приборная панель -->
+				<div class="feature-carousel__item" id="dashboard">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/Dashboard_Desktop.jpg.image.1440.jpg, <%=path%>img/Dashboard_Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Dashboard_Mobile.jpg.image.1000.jpg, <%=path%>img/Dashboard_Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Dashboard_Mobile.jpg.image.700.jpg, <%=path%>img/Dashboard_Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Dashboard_Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/Dashboard_Mobile.jpg.image.500.jpg, <%=path%>img/Dashboard_Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="A close-up of the dashboard screen in the 2021 Ram 1500 TRX, displaying reaction time, 60 foot timer, quarter-mile timer and eighth-mile timer.">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content">
+						<h3 class="feature-carousel__itemtitle">
+							Основные показатели
+						</h3>
+						<p class="feature-carousel__text">
+							Отслеживайте текущие показания мощности, угол поворота руля, личные записи и многое другое - все на настраиваемой приборной панели.
+						</p>
+					</div>
+				</div>
+				<!-- Динамометр -->
+				<div class="feature-carousel__item" id="engine">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/Engine-Dyno-Desktop.jpg.image.1440.jpg, <%=path%>img/Engine-Dyno-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 1005px)">
+						<source srcset="<%=path%>img/Engine-Dyno-Mobile.jpg.image.1000.jpg, <%=path%>img/Engine-Dyno-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 700px)">
+						<source srcset="<%=path%>img/Engine-Dyno-Mobile.jpg.image.700.jpg, <%=path%>img/Engine-Dyno-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 510px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Engine-Dyno-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/Engine-Dyno-Mobile.jpg.image.500.jpg, <%=path%>img/Engine-Dyno-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="A close-up of the Vehicle Dynamics page on the 2021 Ram 1500 TRX, displaying a graph of the vehicle's power and torque over time.">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content">
+						<h3 class="feature-carousel__itemtitle">
+							Мощность / Двигатель
+						</h3>
+						<p class="feature-carousel__text">
+							Измеряйте максимальную мощность, крутящий момент и давление наддува во время заездов с помощью встроенного динамометра. Сравните результаты с предыдущими записями.
+						</p>
+					</div>
+				</div>
+				<!-- динамика автомобиля -->
+				<div class="feature-carousel__item" id="dynamics">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/Vehicle-Dynamics-Desktop.jpg.image.1440.jpg, <%=path%>img/Vehicle-Dynamics-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 1005px)">
+						<source srcset="<%=path%>img/Vehicle-Dynamics-Mobile.jpg.image.1000.jpg, <%=path%>img/Vehicle-Dynamics-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 700px)">
+						<source srcset="<%=path%>img/Vehicle-Dynamics-Mobile.jpg.image.700.jpg, <%=path%>img/Vehicle-Dynamics-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 510px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Vehicle-Dynamics-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/Vehicle-Dynamics-Mobile.jpg.image.500.jpg, <%=path%>img/Vehicle-Dynamics-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="A close-up of the Vehicle Dynamics page on the 2021 Ram 1500 TRX, displaying a 38-degree steering angle and the rear axle locked.">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content">
+						<h3 class="feature-carousel__itemtitle">
+							Состояние автомобиля
+						</h3>
+						<p class="feature-carousel__text">
+							На бездорожье используйте раздел меню «Состояние автомобиля», чтобы выбрать оптимальный угол поворота руля, блокировку оси или настроить режим работы раздаточной коробки.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Начните свое правление -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="qvmedia-block gcss-theme-dark" id="control">
+			<!-- заголовок секции -->
+			<h2 class="qvmedia-block__title">
+				Играй по своим правилам
+			</h2>
+			<!-- абзац-подзаголовок -->
+			<p class="qvmedia-block__subtitle col-lg-6 not-float">
+				TRX - это экстремальный пикап и пикап повышенной проходимости, предназначенный для управления всеми 702 лошадьми на постоянно меняющейся местности.
+			</p>
+			<!-- фоновая картинка -->
+			<picture class="qvmedia-block__bg">
+				<source srcset="<%=path%>img/Control-Hero-Desktop.jpg" media="(min-width: 992px)">
+				<source srcset="<%=path%>img/Control-Hero-Tablet.jpg" media="(min-width: 768px)">
+				<source srcset="<%=path%>img/Control-Hero-Mobile.jpg" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Control-Hero-Desktop.jpg" data-srcset="<%=path%>img/Control-Hero-Mobile.jpg" draggable="false" alt="A head-on view of the 2021 Ram 1500 TRX with its headlamps lit, as it plows through a puddle spraying mounds of water in its wake. ">
+			</picture>
+			<!-- предупреждение -->
+			<div class="qvmedia-block__notice">
+				<div class="col-sm-10 center not-float">
+					Не пытайтесь преодолевать водный брод, если глубина не известна и не соответствует возможностям вашего автомобиля, указанному в Руководстве по эксплуатации. Попадание воды в двигатель может привести к его повреждению, на которое не распространятся заводская гарантия. Всегда ответственно подходите к преодолению бездорожья где бы вы не находились.
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Характеристики TRX аммортизаторов -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="feature-highlight gcss-theme-dark">
+			<!-- характеристики -->
+			<div class="feature-highlight__keystat-grid row">
+				<!-- клиренс -->
+				<div class="feature-highlight__keystat-item col-xs-6 col-md-4">
+					<span class="feature-highlight__keystat-number counter" data-end="30" data-suffix-value=" см.">
+						30
+					</span>
+					<span class="feature-highlight__keystat-label">
+						КЛИРЕНС
+					</span>
+				</div>
+				<!-- ход передней подвески -->
+				<div class="feature-highlight__keystat-item col-xs-6 col-md-4">
+					<span class="feature-highlight__keystat-number counter" data-end="33" data-suffix-value=" см.">
+						33
+					</span>
+					<span class="feature-highlight__keystat-label">
+						ХОД ПЕРЕДНЕЙ ПОДВЕСКИ
+					</span>
+				</div>
+				<!-- ход задней подвески -->
+				<div class="feature-highlight__keystat-item col-xs-12 col-md-4">
+					<span class="feature-highlight__keystat-number counter" data-end="35 " data-suffix-value=" см.">
+						35
+					</span>
+					<span class="feature-highlight__keystat-label">
+						ХОД ЗАДНЕЙ ПОДВЕСКИ
+					</span>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Амортизаторы Bilstein -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="feature-panel gcss-theme-dark">
+			<!-- фоновая картинка -->
+			<picture class="feature-panel__img">
+				<source srcset="<%=path%>img/TRX-Control-Shocks-Desktop.jpg.image.1440.jpg, <%=path%>img/TRX-Control-Shocks-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+				<source srcset="<%=path%>img/TRX-Control-Shocks-Mobile.jpg.image.1000.jpg, <%=path%>img/TRX-Control-Shocks-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+				<source srcset="<%=path%>img/TRX-Control-Shocks-Mobile.jpg.image.700.jpg, <%=path%>img/TRX-Control-Shocks-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Control-Shocks-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Control-Shocks-Mobile.jpg.image.500.jpg, <%=path%>img/TRX-Control-Shocks-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="">
+			</picture>
+			<!-- текстовый контент -->
+			<div class="feature-panel__content">
+				<h3 class="feature-panel__itemtitle">
+					Амортизаторы Bilstein<sup>®</sup>
+				</h3>
+				<p class="feature-panel__text">
+					Уникальные амортизаторы Bilstein<sup>®</sup> Black Hawk<sup>®</sup> e<sup>2</sup> - самые совершенные из когда-либо предлагаемых на серийных пикапах, и их можно найти только на RAM TRX.
+				</p>
+				<!-- ссылка-заглушка -->
+				<a class="feature-panel__link btn btn-secondary" href="#">
+					Изучить тех спецификацию
+				</a>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Спортивное рулевое колесо -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="feature-panel gcss-theme-dark">
+			<!-- фоновая картинка -->
+			<picture class="feature-panel__img">
+				<source srcset="<%=path%>img/Steering-Wheel-Desktop.jpg.image.1440.jpg, <%=path%>img/Steering-Wheel-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+				<source srcset="<%=path%>img/Steering-Wheel-Mobile.jpg.image.1000.jpg, <%=path%>img/Steering-Wheel-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 700px)">
+				<source srcset="<%=path%>img/Steering-Wheel-Mobile.jpg.image.700.jpg, <%=path%>img/Steering-Wheel-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 510px)">
+				<img class="lazyload" src="<%=path%>img/Steering-Wheel-Desktop.jpg.image.1440.jpg" srcset="<%=path%>img/Steering-Wheel-Mobile.jpg.image.500.jpg, <%=path%>img/Steering-Wheel-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="">
+			</picture>
+			<!-- текстовый контент -->
+			<div class="feature-panel__content feature-panel__content_right">
+				<h3 class="feature-panel__itemtitle">
+					СПОРТИВНОЕ РУЛЕВОЕ КОЛЕСО
+				</h3>
+				<p class="feature-panel__text">
+					Первое, ориентированное на уникальную управляемость рулевое колесо на пикапах RAM оснащено интегрированными алюминиевыми подрулевыми переключателями, спортивной плоской нижней частью рулевого колеса, вставками из карбона и замши Alcantara<sup>®</sup> - именно то, что вы должны ожидать от грузовика с такими характеристиками.
+				</p>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Режимы вождения -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="sticky-media gcss-theme-dark">
+			<!-- заголовок страницы -->
+			<h2 class="sticky-media__title">
+				Восемь режимов работы привода
+			</h2>
+			<!-- абзац-подзаголовок -->
+			<p class="sticky-media__subtitle col-sm-10 center not-float">
+				Благодаря эксклюзивной системе выбора алгоритма движения, TRX адаптируется к дорожным условиями исходя из выбранной водителем программы движения и дорожного покрытия под колесами.
+			</p>
+			<div class="row">
+				<!-- меню слайдера -->
+				<div class="sticky-media__static col-xs-6 col-sm-6 col-lg-5">
+					<!-- режим спорт -->
+					<div class="sticky-media__item sticky-media__item_active" data-target="123">
+						<h2 class="sticky-media__item-title">
+							Режим спорт
+						</h2>
+						<p class="sticky-media__text">
+							Более быстрое переключение передач, более жёсткие амортизаторы, разделение крутящего момента между осями 30/70 (больший момент на заднюю ось) и спортивно настроенная система стабилизации, дают TRX оптимальную настройку для движения по дорогам с твёрдым покрытием.
+						</p>
+					</div>
+					<!-- режим снег -->
+					<div class="sticky-media__item" data-target="234">
+						<h2 class="sticky-media__item-title">
+							Режим снег
+						</h2>
+						<p class="sticky-media__text">
+							Зачем позволять погоде ограничивать ваши передвижения? TRX использует оптимальное распределение крутящего момента между осями 45/55 и ограничивает избыточную мощность двигателя для оптимального движения по снегу или льду.
+						</p>
+					</div>
+					<!-- пользовательский режим -->
+					<div class="sticky-media__item" data-target="345">
+						<h2 class="sticky-media__item-title">
+							Пользовательский режим
+						</h2>
+						<p class="sticky-media__text">
+							TRX ждёт вашей команды. Создайте индивидуальный стиль вождения, выбрав желаемую остроту рулевого управления, распределение крутящего момента между осями, жесткость подвески и многое другое.
+						</p>
+					</div>
+					<!-- режим грязь-песок -->
+					<div class="sticky-media__item" data-target="456">
+						<h2 class="sticky-media__item-title">
+							РЕЖИМ ГРЯЗЬ/ПЕСОК
+						</h2>
+						<p class="sticky-media__text">
+							В условиях вязкого песка или грязи TRX использует распределение крутящего момента между осями 45/55 и калибрует управление дроссельной заслонкой для ограничения мощности и крутящего момента, чтобы уменьшить пробуксовку колёс и улучшить сцепление с покрытием.
+						</p>
+					</div>
+					<!-- режим скалы -->
+					<div class="sticky-media__item" data-target="567">
+						<h2 class="sticky-media__item-title">
+							Режим  камни/скалы
+						</h2>
+						<p class="sticky-media__text">
+							Когда перед вами скалистая поверхность, TRX переключается на низкое передаточное число и использует распределение крутящего момента между осями 50/50. Кроме того, Selec-Speed<sup>®</sup> Control поддерживает заданную скорость для контролируемого спуска с горы.
+						</p>
+					</div>
+					<!-- режим Baja -->
+					<div class="sticky-media__item" data-target="678" style="padding-bottom:20rem">
+						<h2 class="sticky-media__item-title">
+							Режим BAJA
+						</h2>
+						<p class="sticky-media__text">
+							При выезде на дюны этот внедорожник сокращает время переключения передач на 68%, устанавливает подвеску на полный ход и допускает умеренную избыточную поворачиваемость для максимального удовольствия от вождения.
+						</p>
+					</div>
+				</div>
+				<!-- изображения к слайдеру -->
+				<div class="sticky-media__dynamic col-xs-6 col-sm-6 col-lg-6">
+					<img class="sticky-media__image sticky-media__image_active lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Control-Sport-v2.jpg" id="123" alt="">
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Control-Snow-v2.jpg" id="234" alt="">
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Control-Custom-v2.jpg" id="345" alt="">
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Control-Mud-Sand.jpg" id="456" alt="">
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Control-Rock-v2.jpg" id="567" alt="">
+					<img class="sticky-media__image lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Control-Baja-2.jpg" id="678" alt="">
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Космическая одиссея -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="copy-box gcss-theme-light" id="exterior">
+			<!-- заголовок секции -->
+			<h2 class="copy-box__title">
+				Вдохновленный покорителями вершин
+			</h2>
+			<!-- абзац текста -->
+			<p class="copy-box__text col-xs-10 col-sm-10 col-md-6 not-float">
+				Не пропусти. С 20 дополнительными сантиметрами ширины кузова, массивными 35-дюймовыми шинами и вызывающим дизайном, TRX заявляет о себе как о самом дерзком пикапе, который когда-либо производился за всю историю RAM.
+			</p>
+			<!-- запустить видео в этой вкладке -->
+			<a class="copy-box__link btn _icon-play" data-fancybox href="https://www.youtube.com/watch?v=d53xCnAhYUY">
+				Экстерьер
+			</a>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Особенности экстеръера -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="feature-carousel gcss-theme-light" id="exterior-carousel">
+			<!-- табы -->
+			<ul class="feature-carousel__navlinks tabnav">
+				<li class="tabnav__item active">
+					<a class="tabnav__link" data-target="air" href="#">
+						ВЗДОХНИ ПОЛНОЙ ГРУДЬЮ
+					</a>
+				</li>
+				<li class="tabnav__item">
+					<a class="tabnav__link" data-target="wide" href="#">
+						ШИРОКИЕ КОЛЁСНЫЕ АРКИ
+					</a>
+				</li>
+				<li class="tabnav__item">
+					<a class="tabnav__link" data-target="accessories" href="#">
+						АКСЕССУАРЫ
+					</a>
+				</li>
+				<li class="tabnav__item ">
+					<a class="tabnav__link" data-target="exhaust" href="#">
+						ВЫСОКОПРОИЗВОДИТЕЛЬНЫЙ ВЫХЛОП
+					</a>
+				</li>
+			</ul>
+			<div class="feature-carousel__items">
+				<div class="feature-carousel__item" id="air">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/Exterior-Air-Intake-Desktop.jpg.image.1440.jpg, <%=path%>img/Exterior-Air-Intake-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Exterior-Air-Intake-Mobile.jpg.image.1000.jpg, <%=path%>img/Exterior-Air-Intake-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Exterior-Air-Intake-Mobile.jpg.image.700.jpg, <%=path%>img/Exterior-Air-Intake-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Exterior-Air-Intake-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/Exterior-Air-Intake-Mobile.jpg.image.500.jpg, <%=path%>img/Exterior-Air-Intake-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content right gcss-theme-light">
+						<h3 class="feature-carousel__itemtitle feature-carousel__itemtitle_right">
+							ВЗДОХНИ ПОЛНОЙ ГРУДЬЮ
+						</h3>
+						<p class="feature-carousel__text">
+							Агрессивная решетка радиатора, высокопроизводительный воздухозаборник и значок R-A-M спереди обеспечивают беспрепятственный приток воздуха к двигателю. Кроме того, встроенные в капот оранжевые габаритные огни обеспечивают TRX узнаваемый фирменный стиль.
+						</p>
+					</div>
+				</div>
+				<div class="feature-carousel__item" id="wide">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/Exterior-Wide-Fenders-Desktop.jpg.image.1440.jpg, <%=path%>img/Exterior-Wide-Fenders-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Exterior-Wide-Fenders-Mobile.jpg.image.1000.jpg, <%=path%>img/Exterior-Wide-Fenders-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Exterior-Wide-Fenders-Mobile.jpg.image.700.jpg, <%=path%>img/Exterior-Wide-Fenders-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Exterior-Wide-Fenders-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/Exterior-Wide-Fenders-Mobile.jpg.image.500.jpg, <%=path%>img/Exterior-Wide-Fenders-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content gcss-theme-light">
+						<h3 class="feature-carousel__itemtitle">
+							ШИРОКИЕ КОЛЁСНЫЕ АРКИ
+						</h3>
+						<p class="feature-carousel__text">
+							Интеллектуальные фары премиум-класса со светодиодной подсветкой Smartbeam интегрированы в расширенные крылья, которые шире стандартных на 20 см. для более эффективного воздушного потока и охлаждения.
+						</p>
+					</div>
+				</div>
+				<div class="feature-carousel__item" id="accessories">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/Exterior-Available-Accessories-Desktop.jpg.image.1440.jpg, <%=path%>img/Exterior-Available-Accessories-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Exterior-Available-Accessories-Mobile.jpg.image.1000.jpg, <%=path%>img/Exterior-Available-Accessories-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Exterior-Available-Accessories-Mobile.jpg.image.700.jpg, <%=path%>img/Exterior-Available-Accessories-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Exterior-Available-Accessories-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/Exterior-Available-Accessories-Mobile.jpg.image.500.jpg, <%=path%>img/Exterior-Available-Accessories-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content gcss-theme-light">
+						<h3 class="feature-carousel__itemtitle">
+							АКСЕССУАРЫ
+						</h3>
+						<p class="feature-carousel__text">
+							Доступные аксессуары Mopar<sup>®</sup>, такие как вертикальное крепление для запасного колеса и RamBar, разработаны для того чтобы придать вашему TRX неповторимый стиль.
+						</p>
+					</div>
+				</div>
+				<div class="feature-carousel__item" id="exhaust">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/Exterior-Exhaust-Desktop.jpg.image.1440.jpg, <%=path%>img/Exterior-Exhaust-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/Exterior-Exhaust-Mobile.jpg.image.1000.jpg, <%=path%>img/Exterior-Exhaust-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/Exterior-Exhaust-Mobile.jpg.image.700.jpg, <%=path%>img/Exterior-Exhaust-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Exterior-Exhaust-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/Exterior-Exhaust-Mobile.jpg.image.500.jpg, <%=path%>img/Exterior-Exhaust-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content down gcss-theme-light">
+						<h3 class="feature-carousel__itemtitle">
+							ВЫСОКОПРОИЗВОДИТЕЛЬНЫЙ ВЫХЛОП
+						</h3>
+						<p class="feature-carousel__text">
+							Не приближайся. Выхлопная система с уникальными характеристиками использует две безрезонансные трубы, издающие завораживающее рычание из массивных 5-дюймовых матово-черных выхлопных патрубков.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Оставь свой след -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="hero gcss-theme-light">
+			<!-- фоновая картинка -->
+			<picture class="hero__bg">
+				<source srcset="<%=path%>img/Exterior-Imposing-Footprint-Desktop.jpg" media="(min-width: 992px)">
+				<img class="lazyload" data-src="<%=path%>img/Exterior-Imposing-Footprint-Desktop.jpg" data-srcset="<%=path%>img/Exterior-Imposing-Footprint-Mobile.jpg" draggable="false" alt="">
+			</picture>
+			<!-- текстовый контент -->
+			<div class="hero__content right top thirty static-lg w100-lg">
+				<h2 class="hero__title">
+					Оставь свой след
+				</h2>
+				<p class="hero__text">
+					35-дюймовые шины Goodyear Wrangler Territory All Terrain разработаны специально для TRX. Благодаря уникальному протектору, ориентированному на максимальное сцепление с покрытием, и внедорожным 18-дюймовым литым алюминиевым дискам с чёрным окрасом, они произведут впечатление не только на дорогу.
+				</p>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Играй по своим правилам -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="qvmedia-block gcss-theme-dark" id="interior">
+			<!-- заголовок секции -->
+			<h2 class="qvmedia-block__title">
+				Играй по своим правилам
+			</h2>
+			<!-- абзац-подзаголовок -->
+			<p class="qvmedia-block__subtitle col-lg-6 not-float">
+				В TRX преобладают материалы премиум-класса, необычная изысканность и самые современные технологии.
+			</p>
+			<!-- большое изображение -->
+			<picture class="qvmedia-block__bg">
+				<source srcset="<%=path%>img/TRX-Interior-Hero-Desktop.jpg" media="(min-width: 576px)">
+				<img class="lazyload" data-src="<%=path%>img/TRX-Interior-Hero-Desktop.jpg" data-srcset="<%=path%>img/TRX-Interior-Hero-Mobile.jpg" draggable="false" alt="Interior shot from the perspective of the driver seat in the 2021 Ram 1500 TRX showcasing premium interior materials and technology.">
+			</picture>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Индивидуальные опции -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="feature-carousel gcss-theme-dark" id="interior-carousel">
+			<!-- заголовок секции -->
+			<h2 class="feature-carousel__title">
+				Индивидуальные опции
+			</h2>
+			<!-- табы -->
+			<ul class="feature-carousel__navlinks tabnav gcss-theme-light">
+				<li class="tabnav__item active">
+					<a class="tabnav__link" data-target="hud" href="#">
+						Система проекции на лобовое стекло (HUD)
+					</a>
+				</li>
+				<li class="tabnav__item">
+					<a class="tabnav__link" data-target="audio" href="#">
+						19 динамиков Harman Kardon
+					</a>
+				</li>
+			</ul>
+			<div class="feature-carousel__items">
+				<!-- система HUD -->
+				<div class="feature-carousel__item" id="hud">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/TRX-Interior_HUD_Desktop.jpg.image.1440.jpg, <%=path%>img/TRX-Interior_HUD_Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Interior_HUD_Mobile.jpg.image.1000.jpg, <%=path%>img/TRX-Interior_HUD_Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Interior_HUD_Mobile.jpg.image.700.jpg, <%=path%>img/TRX-Interior_HUD_Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Interior_HUD_Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Interior_HUD_Mobile.jpg.image.500.jpg, <%=path%>img/TRX-Interior_HUD_Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="The Head-Up Display on the windshield of the 2021 Ram 1500 TRX, displaying current speed, speed limit and navigation information.">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content gcss-color-light">
+						<h3 class="feature-carousel__itemtitle">
+							Система проекции на лобовое стекло (HUD)
+						</h3>
+						<p class="feature-carousel__text">
+							Абсолютно новый проекционный дисплей служит вашей виртуальным ассистентом, проецируя массив настраиваемой информации на лобовое стекло.
+						</p>
+					</div>
+				</div>
+				<!-- аудио система Harman Kardon -->
+				<div class="feature-carousel__item" id="audio">
+					<!-- фоновая картинка -->
+					<picture class="feature-carousel__img">
+						<source srcset="<%=path%>img/TRX-Interior-HK-Desktop.jpg.image.1440.jpg, <%=path%>img/TRX-Interior-HK-Desktop.jpg.image.2880.jpg 2x" media="(min-width: 992px)">
+						<source srcset="<%=path%>img/TRX-Interior-HK-Mobile.jpg.image.1000.jpg, <%=path%>img/TRX-Interior-HK-Mobile.jpg.image.2000.jpg 2x" media="(min-width: 768px)">
+						<source srcset="<%=path%>img/TRX-Interior-HK-Mobile.jpg.image.700.jpg, <%=path%>img/TRX-Interior-HK-Mobile.jpg.image.1400.jpg 2x" media="(min-width: 576px)">
+						<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Interior-HK-Desktop.jpg.image.1440.jpg" data-srcset="<%=path%>img/TRX-Interior-HK-Mobile.jpg.image.500.jpg, <%=path%>img/TRX-Interior-HK-Mobile.jpg.image.1000.jpg 2x" draggable="false" alt="A close-up shot of a Harman Kardon speaker in the 2021 Ram 1500 TRX.">
+					</picture>
+					<!-- текстовый контент -->
+					<div class="feature-carousel__content gcss-color-light">
+						<h3 class="feature-carousel__itemtitle">
+							ПРЕМИАЛЬНАЯ АУДИО СИСТЕМА HARMAN KARDON<sup>®</sup> С 19 ДИНАМИКАМИ
+						</h3>
+						<p class="feature-carousel__text">
+							Аудиосистема Harman Kardon<sup>®</sup> Premium мощностью 900 Вт может похвастаться 19 динамиками и изготовлена ​​из эксклюзивных материалов, которые можно найти только в TRX.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= 3D-панорама 360: попробуй интеръер -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="interior-360 hero pointer gcss-theme-dark" id="interior-360">
+			<!-- фоновая картинка -->
+			<picture class="hero__bg">
+				<source srcset="<%=path%>img/TRX-Interior-Pano-Desktop.jpg" media="(min-width: 576px)">
+				<img class="lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Interior-Pano-Desktop.jpg" data-srcset="<%=path%>img/TRX-Interior-Pano-Mobile.jpg" draggable="false" alt="">
+			</picture>
+			<!-- контейнер для панорамы (генерация на JS) -->
+			<div id="panorama"></div>
+			<!-- текстовый контент -->
+			<div class="hero__content center top">
+				<h2 class="hero__title">
+					Попробуй сейчас
+				</h2>
+				<p class="hero__text">
+					Посмотрите различные варианты интерьера
+				</p>
+				<!-- иконка -->
+				<span class="hero__icon _icon-alfa-qv-360-interior"></span>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Дьявол кроется в деталях -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="blurb-rail gcss-theme-dark">
+			<div class="container">
+				<!-- заголовок секции -->
+				<h2 class="blurb-rail__title">
+					Дьявол кроется в деталях
+				</h2>
+				<!-- флекс-контейнер -->
+				<ul class="blurb-rail__list row">
+					<!-- кнопки aux -->
+					<li class="blurb-rail__item col-sm-12 col-md-3">
+						<img class="blurb-rail__item-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/AUX-Buttons.jpg" alt="">
+						<h3 class="blurb-rail__item-title">
+							Кнопки AUX
+						</h3>
+						<p class="blurb-rail__item-description">
+							Интегрированный блок переключателей имеет до шести вспомогательных кнопок на передней панели и систему управления задним ходом прицепа.
+						</p>
+					</li>
+					<!-- переключатель режимов АКПП -->
+					<li class="blurb-rail__item col-sm-12 col-md-3">
+						<img class="blurb-rail__item-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Center-Shifter.jpg" alt="">
+						<h3 class="blurb-rail__item-title">
+							Переключатель режимов АКПП на центральной консоли
+						</h3>
+						<p class="blurb-rail__item-description">
+							Мощность является главным козырем модели TRX и поэтому переключатель передач установлен по центру салона, с ручным режимом выбора передач.
+						</p>
+					</li>
+					<!-- лого TRX -->
+					<li class="blurb-rail__item col-sm-12 col-md-3">
+						<img class="blurb-rail__item-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/TRX-Badges.jpg" alt="">
+						<h3 class="blurb-rail__item-title">
+							Лого TRX
+						</h3>
+						<p class="blurb-rail__item-description">
+							Благодаря эксклюзивным лого TRX на крышке центрального бокса и пассажирского бардачка вы и ваши пассажиры всегда будете помнить как его зовут.
+						</p>
+					</li>
+					<!-- подрулевые переключатели -->
+					<li class="blurb-rail__item col-sm-12 col-md-3">
+						<img class="blurb-rail__item-img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/Paddle-Shifters.jpg" alt="">
+						<h3 class="blurb-rail__item-title">Алюминиевые подрулевые переключатели</h3>
+						<p class="blurb-rail__item-description">
+							Впервые на RAM алюминиевые подрулевые переключатели интегрированы в рулевое колесо с уникальным спортивным дизайном.
+						</p>
+					</li>
+				</ul>
+				<!-- запустить видео на этой странице -->
+				<a class="blurb-rail__link btn btn-secondary _icon-play" data-fancybox="" href="https://www.youtube.com/watch?v=EPPFy78bXJ4">
+					Интерьер
+				</a>
+			</div>
+		</section>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= RAM 1500 -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="feature-panel gcss-theme-dark pt0">
+			<!-- фоновая картинка -->
+			<img class="feature-panel__img lazyload" src="<%=path%>img/loader.gif" data-src="<%=path%>img/RM021_011MM.jpg" draggable="false" alt="">
+			<!-- текстовый контент -->
+			<div class="feature-panel__content bg-lg-black w-40">
+				<h3 class="feature-panel__itemtitle">
+					Взгляните на полный модельный ряд RAM 1500
+				</h3>
+				<p class="feature-panel__text">
+					TRX - наше самая последняя и самая впечатляющая разработка в линейке грузовых полноразмерных пикапов. Узнайте, почему сейчас всё больше людей, чем когда-либо, выбирают себе RAM.
+				</p>
+				<!-- ссылка на модель Ram 1500 -->
+				<a class="feature-panel__link btn btn-secondary gcss-button" href="/ram-1500/">
+					Ознакомиться с Ram 1500
+				</a>
+			</div>
+		</section>
+		
+
+	</main>
+
+	<!-- Скрипты для страницы -->
+	<script src="<%=path%>js/app.min.js"></script>
+</body>
+
+</html>

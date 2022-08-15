@@ -1,0 +1,140 @@
+a,
+abbr,
+address,
+area,
+article,
+aside,
+audio,
+blockquote,
+body,
+button,
+canvas,
+caption,
+cite,
+col,
+colgroup,
+command,
+data,
+datagrid,
+datalist,
+dd,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+iframe,
+img,
+input,
+label,
+legend,
+li,
+map,
+nav,
+object,
+ol,
+optgroup,
+option,
+p,
+q,
+section,
+select,
+small,
+span,
+strong,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+tr,
+ul,
+video {
+	border: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	color: inherit;
+}
+html {
+	font-size: 14px;
+	line-height: 1;
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+iframe,
+img,
+picture,
+object,
+main {
+	display: block;
+}
+img {
+	max-width: 100%;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ol,
+ul {
+	list-style-position: outside;
+	list-style-type: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+sub,
+sup {
+	font-size: 0.7em;
+	font-weight: normal;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.3em;
+}
+sub {
+	bottom: -0.3em;
+}
+textarea {
+	resize: vertical;
+}
+[hidden] {
+	display: none;
+}
+
+@media (min-width: 992px){
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}}

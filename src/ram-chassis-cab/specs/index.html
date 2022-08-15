@@ -1,0 +1,191 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!doctype html>
+<!-- Оболочка документа, указываем яык содержимого -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+@@include('../../_header.html', {"title":"Спецификации"})
+
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка для демонстрации -->
+	<main class="main">
+
+		<!-- Контент -->
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Навигация по модели -=-=-=-=-=-=-=-=-=-=-= -->
+		<div class="secondary-navigation__modelname secondary-navigation__modelname_mobile">
+			<h1 class="secondary-navigation__title">
+				2020&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2021 Ram | Шасси
+			</h1>
+		</div>
+		<div class="secondary-navigation" id="secondary-nav">
+			<div class="secondary-navigation__modelname">
+				<h1 class="secondary-navigation__title">
+					2020&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2021 Ram | Шасси
+				</h1>
+			</div>
+			<nav class="secondary-navigation__menu nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-chassis-cab/">
+							Обзор
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-chassis-cab/gallery/">
+							Галерея
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-chassis-cab/capability/">
+							Возможности
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-chassis-cab/versatility/">
+							Универсальность
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-chassis-cab/interior/">
+							Интерьер
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-chassis-cab/safety-security/">
+							Безопасность и защита
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="/ram-chassis-cab/compare/">
+							Сравнить
+						</a>
+					</li>
+					<li class="nav__item nav__item_active">
+						<a class="nav__link" href="/ram-chassis-cab/specs/">
+							Спецификации
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- -=-=-=-=-=-=-=-=-=-=-= Заголовок страницы -=-=-=-=-=-=-=-=-=-=-= -->
+		<section class="qvmedia-block">
+			<!-- надзаголовок секции -->
+			<div class="qvmedia-block__suptitle" style="padding:1.85714rem;font-family:'Geogrotesque Cyr',sans-serif;">
+				2021 RAM ШАССИ
+			</div>
+		</section>
+
+
+		<div class="specs specs_page ram-chassis-cab gcss-theme-light" id="buildyourtrx">
+			<ul class="ram-chassis-cab__models tabnav">
+				<li class="tabnav__item active">
+					<a class="tabnav__link" data-target="srw" href="#">
+						3500 SRW
+					</a>
+					</li>
+				<li class="tabnav__item">
+					<a class="tabnav__link" data-target="3500" href="#">
+						3500 Шасси
+					</a>
+					</li>
+				<li class="tabnav__item">
+					<a class="tabnav__link" data-target="4500" href="#">
+						4500 Шасси
+					</a>
+					</li>
+				<li class="tabnav__item">
+					<a class="tabnav__link" data-target="5500" href="#">
+						5500 Шасси
+					</a>
+					</li>
+			</ul>
+			<ul class="feature-carousel cars-carousel">
+				<div class="feature-carousel__item cars-carousel__wrapper owl-carousel center" id="srw" style="min-height: auto;">
+					<li class="cars-carousel__item" id="1">
+						<img class="cars-carousel__img" src="<%=path%>img/iris19.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="5">
+						<img class="cars-carousel__img" src="<%=path%>img/iris20.png" alt="SLT">
+						<h4 class="cars-carousel__title">SLT</h4>
+					</li>
+					<li class="cars-carousel__item" id="9">
+						<img class="cars-carousel__img" src="<%=path%>img/iris21.png" alt="LARAMIE®">
+						<h4 class="cars-carousel__title">Laramie<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="11">
+						<img class="cars-carousel__img" src="<%=path%>img/iris22.png" alt="LIMITED">
+						<h4 class="cars-carousel__title">Limited</h4>
+					</li>
+				</div>
+				<div class="feature-carousel__item cars-carousel__wrapper owl-carousel center" id="3500" style="min-height: auto;">
+					<li class="cars-carousel__item" id="13">
+						<img class="cars-carousel__img" src="<%=path%>img/iris23.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="19">
+						<img class="cars-carousel__img" src="<%=path%>img/iris24.png" alt="SLT">
+						<h4 class="cars-carousel__title">SLT</h4>
+					</li>
+					<li class="cars-carousel__item" id="25">
+						<img class="cars-carousel__img" src="<%=path%>img/iris25.png" alt="LARAMIE®">
+						<h4 class="cars-carousel__title">Laramie<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="27">
+						<img class="cars-carousel__img" src="<%=path%>img/iris26.png" alt="LIMITED">
+						<h4 class="cars-carousel__title">Limited</h4>
+					</li>
+				</div>
+				<div class="feature-carousel__item cars-carousel__wrapper owl-carousel center" id="4500" style="min-height: auto;">
+					<li class="cars-carousel__item" id="29">
+						<img class="cars-carousel__img" src="<%=path%>img/iris27.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="41">
+						<img class="cars-carousel__img" src="<%=path%>img/iris28.png" alt="SLT">
+						<h4 class="cars-carousel__title">SLT</h4>
+					</li>
+					<li class="cars-carousel__item" id="53">
+						<img class="cars-carousel__img" src="<%=path%>img/iris29.png" alt="LARAMIE®">
+						<h4 class="cars-carousel__title">Laramie<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="57">
+						<img class="cars-carousel__img" src="<%=path%>img/iris30.png" alt="LIMITED">
+						<h4 class="cars-carousel__title">Limited</h4>
+					</li>
+				</div>
+				<div class="feature-carousel__item cars-carousel__wrapper owl-carousel center" id="5500" style="min-height: auto;">
+					<li class="cars-carousel__item" id="61">
+						<img class="cars-carousel__img" src="<%=path%>img/iris31.png" alt="TRADESMAN®">
+						<h4 class="cars-carousel__title">Tradesman<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="73">
+						<img class="cars-carousel__img" src="<%=path%>img/iris32.png" alt="SLT">
+						<h4 class="cars-carousel__title">SLT</h4>
+					</li>
+					<li class="cars-carousel__item" id="85">
+						<img class="cars-carousel__img" src="<%=path%>img/iris33.png" alt="LARAMIE®">
+						<h4 class="cars-carousel__title">Laramie<sup>®</sup></h4>
+					</li>
+					<li class="cars-carousel__item" id="89">
+						<img class="cars-carousel__img" src="<%=path%>img/iris34.png" alt="LIMITED">
+						<h4 class="cars-carousel__title">Limited</h4>
+					</li>
+				</div>
+			</ul>
+			<div class="specs__info row center"></div>
+			<ul class="accordeon col-xs-11 col-md-10 not-float center" id="accordeon"></ul>
+		</div>
+
+
+    </main>
+
+	<!-- Скрипты для страницы -->
+	<script src="<%=path%>js/app.min.js"></script>
+</body>
+</html>

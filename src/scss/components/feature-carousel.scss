@@ -1,0 +1,212 @@
+.feature-carousel {
+	padding-top: 2.85714rem;
+	text-align: center;
+	position: relative;
+	// .feature-carousel__title
+	&__title {
+		padding-bottom: 1rem;
+	}
+	// .feature-carousel__subtitle
+	&__subtitle {
+		margin: 0 auto 2.85714rem;
+		padding: 0 0.78125% 0.14286rem;
+		line-height: 1.42857;
+	}
+	// .feature-carousel__navlinks
+	&__navlinks {
+		padding-bottom: 0.71429rem;
+		margin-bottom: -0.71429rem;
+	}
+	// .feature-carousel__items
+	&__items {
+	}
+	// .feature-carousel__item
+	&__item {
+		position: relative;
+		min-height: 597px;
+	}
+	// .feature-carousel__content
+	&__content {
+		position: absolute;
+		left: 2%;
+		top: 50%;
+		transform: translateY(-50%);
+		text-align: left;
+		padding: 1.42857rem;
+		width: 40%;
+		z-index: 1;
+		&.right {
+			left: auto;
+			right: 2%;
+			float: none !important;
+		}
+		&.down {
+			left: auto;
+			top: auto;
+			right: 2%;
+			bottom: 5%;
+			transform: translateY(0);
+		}
+		&.black {
+			background-color: rgba(0, 0, 0, 0.6);
+		}
+	}
+	// .feature-carousel__link
+	&__link {
+		margin-bottom: 1.42857rem;
+	}
+	// .feature-carousel__itemtitle
+	&__itemtitle {
+		margin-bottom: 1.42857rem;
+		display: inline-block;
+		line-height: 1;
+		font-size: 2.85714rem;
+	}
+	// .feature-carousel__text
+	&__text {
+		margin-bottom: 1.42857rem;
+	}
+	// .feature-carousel__text
+	&__label-group {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10%;
+	}
+	// .feature-carousel__img
+	&__img {
+	}
+}
+.tabnav {
+	display: flex;
+	&__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-grow: 1;
+		flex: 1 1 0;
+		border: 0.07143rem solid #bfbfbf;
+		position: relative;
+		z-index: 1;
+		transition: all 0.3s ease;
+		&:hover:not(.tabnav__item_active) {
+			background-color: #b50000;
+			border-color: #b50000;
+			color: #fff;
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			color: #000;
+		}
+		// .tabnav__item_active
+		&.active {
+			background-color: $primaryColor;
+			border-color: $primaryColor;
+			color: #fff;
+			&::after {
+				bottom: -1.14286rem;
+				border: 0.57143rem solid;
+				border-color: #880d00 transparent transparent;
+			}
+		}
+	}
+	.gcss-theme-light &__item {
+		color: $mainColor;
+		background-color: #fff;
+	}
+	// .tabnav__link
+	&__link {
+		display: flex;
+		line-height: 1.2;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		padding: 0.71429rem 1.42857rem;
+	}
+}
+
+.tabnav_second {
+	.tabnav__item {
+		color: #636363;
+		font-size: 1.21429rem;
+		font-weight: 700;
+		text-align: center;
+		border-radius: 2.85714rem;
+		border: none;
+		margin-right: 0.14286rem;
+		max-height: 40px;
+		&_active {
+			color: #fff;
+			cursor: default;
+			pointer-events: none;
+			background-color: #880d00;
+			&::after {
+				content: none;
+			}
+		}
+	}
+	.tabnav__link {
+		padding: 0.71429rem 1.14286rem;
+	}
+}
+
+.feature-carousel {
+	// ================================ >= 1400px ================================
+	@media (max-width: $xxl+px) {
+	}
+	// ================================ >= 1200px ================================
+	@media (max-width: $xl+px) {
+		&__itemtitle {
+			font-size: 2rem;
+		}
+	}
+	// ================================ >= 992px ================================
+	@media (max-width: $lg+px) {
+		&__content {
+			width: 100%;
+			position: static;
+			margin-top: 30px;
+			transform: none;
+		}
+		&__item {
+			min-height: 500px;
+		}
+		// .feature-carousel__title
+		&__title {
+			font-size: 3rem;
+		}
+		// .feature-carousel__navlinks
+		&__navlinks {
+			font-size: 0.9rem;
+		}
+	}
+	// ================================ >= 768px ================================
+	@media (max-width: $md+px) {
+		.tabnav {
+			flex-direction: column;
+		}
+	}
+	// ================================ >= 576px ================================
+	@media (max-width: $sm+px) {
+		&__content {
+			margin-top: 10%;
+		}
+		&__itemtitle {
+			margin-bottom: 0.85714rem;
+			font-size: 1.18571rem;
+		}
+		&__item {
+			min-height: 200px;
+		}
+		// .feature-carousel__title
+		&__title {
+			font-size: 2rem;
+		}
+		// .feature-carousel__text
+	&__label-group {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 5%;
+	}
+	}
+}

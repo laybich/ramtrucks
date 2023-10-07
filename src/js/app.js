@@ -1,5 +1,5 @@
 $(window).on('load', () => {
-	const PATH = '/wa-apps/blog/themes/ramtrucks/';
+	const PATH = '/';
 	lazySizes.init();
 
 	// ============================ <ADAPTIVE MENU> ============================

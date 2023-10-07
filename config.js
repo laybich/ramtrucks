@@ -9,7 +9,7 @@ const path = {
 	env: 'development',
 	production: production,
 	argv: argv,
-	storage: production ? '/wa-apps/blog/themes/ramtrucks/' : '/',
+	storage: production ? '/' : '/',
 
 	build: {
 		html: dest + '/',

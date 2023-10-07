@@ -33,10 +33,10 @@ const path = {
 			'./node_modules/zurb-twentytwenty/js/jquery.event.move.js',
 			'src/js/app.js'
 		],
-		scss: 'src/scss/style.scss',
-		images: ['src/img/**/*.{jpg,png,svg,gif,ico,webp,jfif}'],
-		fonts: ['src/fonts/*.woff', 'src/fonts/*.woff2'],
-		storage: 'src/storage/*.*'
+		scss: '/src/scss/style.scss',
+		images: ['/src/img/**/*.{jpg,png,svg,gif,ico,webp,jfif}'],
+		fonts: ['/src/fonts/*.woff', 'src/fonts/*.woff2'],
+		storage: '/src/storage/*.*'
 	},
 	watch: {
 		html: 'src/**/*.html',

@@ -90,6 +90,11 @@ const build = mode => {
 	return series(
 		setMode,
 		'html',
+		'sass',
+		'js',
+		'images',
+		'fonts',
+		'storage'
 	);
 };
 
